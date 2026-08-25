@@ -1,0 +1,61 @@
+{
+  "Battle_id": 1,
+  "Combatants": {
+    "C_1": {
+      "Name": "Aegis",
+      "Initial_Position": {
+        "X": 50,
+        "Y": 30
+      },
+      "Stamina": 120
+    },
+    "C_2": {
+      "Name": "Strov",
+      "Initial_Position": {
+        "X": 50,
+        "Y": 60
+      }
+      "Stamina": 120
+    }
+  }
+  
+  "Rounds": [
+    {
+      "Round_id": 1,
+      "C_1_OP": 10,
+      "C_2_OP": 7,
+      "Turns": [
+        {
+          "Turn_id": 1,
+          "Actions": [
+            {
+              "State": {
+                "C_1": {
+                  "Position": {
+                    "X": 50,
+                    "Y": 30
+                  },
+                  "OP": 10,
+                  "HP": 60,
+                  "Stamina": 120,
+                  "Active": true
+                },
+                "C_2": {
+                  "Position": {
+                    "X": 50,
+                    "Y": 60
+                  },
+                  "OP": 10,
+                  "HP": 60,
+                  "Stamina": 120,
+                  "Active": false
+                },
+                "Action_type": "Movement",
+                "Description": "BlahBlahBlah"
+              }
+            }
+          ]
+        ]
+    }
+  ]
+}
