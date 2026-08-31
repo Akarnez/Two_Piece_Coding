@@ -1,34 +1,130 @@
 {
-  "1": "Strov vs. Aegis",
-  "2": "Strov (Hybrid) vs. Aegis",
-  "3": "Strov (Bison) vs. Aegis",
-  "4": "Tsukiko vs. Aegis",
-  "5": "Iyashi vs. Aegis",
-  "6": "Rhana vs. Aegis",
-  "7": "Rhana (Water) vs. Aegis",
-  "8": "Rocky vs. Aegis",
-  "9": "Strov vs. Tsukiko",
-  "10": "Strov (Hybrid) vs. Tsukiko",
-  "11": "Strov (Bison) vs. Tsukiko",
-  "12": "Iyashi vs. Tsukiko",
-  "13": "Rhana vs. Tsukiko",
-  "14": "Rhana (Water) vs. Tsukiko",
-  "15": "Rocky vs. Tsukiko",
-  "16": "Strov vs. Iyashi",
-  "17": "Strov (Hybrid) vs. Iyashi",
-  "18": "Strov (Bison) vs. Iyashi",
-  "19": "Rhana vs. Iyashi",
-  "20": "Rhana (Water) vs. Iyashi",
-  "21": "Rocky vs. Iyashi",
-  "22": "Strov vs. Rhana",
-  "23": "Strov (Hybrid) vs. Rhana",
-  "24": "Strov (Bison) vs. Rhana",
-  "25": "Rocky vs. Rhana",
-  "26": "Strov vs. Rhana (Water)",
-  "27": "Strov (Hybrid) vs. Rhana (Water)",
-  "28": "Strov (Bison) vs. Rhana (Water)",
-  "29": "Rocky vs. Rhana (Water)"
-  "30": "Strov vs. Rocky",
-  "31": "Strov (Hybrid) vs. Rocky",
-  "32": "Strov (Bison) vs. Rocky"
+  "1": {
+    "Name": "Strov vs. Aegis",
+    "File": "Battle_1.json"
+  },
+  "2": {
+    "Name": "Strov (Hybrid) vs. Aegis",
+    "File": "Battle_2.json"
+  },
+  "3": {
+    "Name": "Strov (Bison) vs. Aegis",
+    "File": "Battle_3.json"
+  },
+  "4": {
+    "Name": "Tsukiko vs. Aegis",
+    "File": "Battle_4.json"
+  },
+  "5": {
+    "Name": "Iyashi vs. Aegis",
+    "File": "Battle_5.json"
+  },
+  "6": {
+    "Name": "Rhana vs. Aegis",
+    "File": "Battle_6.json"
+  },
+  "7": {
+    "Name": "Rhana (Water) vs. Aegis",
+    "File": "Battle_7.json"
+  }
+  "8": {
+    "Name": "Rocky vs. Aegis",
+    "File": "Battle_8.json"
+  },
+  "9": {
+    "Name": "Strov vs. Tsukiko",
+    "File": "Battle_9.json"
+  },
+  "10": {
+    "Name": "Strov (Hybrid) vs. Tsukiko",
+    "File": "Battle_10.json"
+  },
+  "11": {
+    "Name": "Strov (Bison) vs. Tsukiko",
+    "File": "Battle_11.json"
+  },
+  "12": {
+    "Name": "Iyashi vs. Tsukiko",
+    "File": "Battle_12.json"
+  },
+  "13": {
+    "Name": "Rhana vs. Tsukiko",
+    "File": "Battle_13.json"
+  },
+  "14": {
+    "Name": "Rhana (Water) vs. Tsukiko",
+    "File": "Battle_14.json"
+  },
+  "15": {
+    "Name": "Rocky vs. Tsukiko",
+    "File": "Battle_15.json"
+  },
+  "16": {
+    "Name": "Strov vs. Iyashi",
+    "File": "Battle_16.json"
+  },
+  "17": {
+    "Name": "Strov (Hybrid) vs. Iyashi",
+    "File": "Battle_17.json"
+  },
+  "18": {
+    "Name": "Strov (Bison) vs. Iyashi",
+    "File": "Battle_18.json"
+  },
+  "19": {
+    "Name": "Rhana vs. Iyashi",
+    "Battle": "Battle_19.json"
+  },
+  "20": {
+    "Name": "Rhana (Water) vs. Iyashi",
+    "File": "Battle_20.json"
+  },
+  "21": {
+    "Name": "Rocky vs. Iyashi",
+    "File": "Battle_21.json"
+  },
+  "22": {
+    "Name": "Strov vs. Rhana",
+    "File": "Battle_22.json"
+  },
+  "23": {
+    "Name": "Strov (Hybrid) vs. Rhana",
+    "File": "Battle_23.json"
+  },
+  "24": {
+    "Name": "Strov (Bison) vs. Rhana",
+    "File": "Battle_24.json"
+  },
+  "25": {
+    "Name": "Rocky vs. Rhana",
+    "File": "Battle_25.json"
+  },
+  "26": {
+    "Name": "Strov vs. Rhana (Water)",
+    "File": "Battle_26.json"
+  },
+  "27": {
+    "Name": "Strov (Hybrid) vs. Rhana (Water)",
+    "File": "Battle_27.json"
+  },
+  "28": {
+    "Name": "Strov (Bison) vs. Rhana (Water)",
+    "File": "Battle_28.json"
+  },
+  "29": {
+    "Name": "Rocky vs. Rhana (Water)",
+    "File": "Battle_29.json"
+  },
+  "30": {
+    "Name": "Strov vs. Rocky",
+    "File": "Battle_30.json"
+  },
+  "31": {
+    "Name": "Strov (Hybrid) vs. Rocky",
+    "File": "Battle_31.json"
+  },
+  "32": {
+    "Name": "Strov (Bison) vs. Rocky",
+    "File": "Battle_32.json"
+  }
 }
