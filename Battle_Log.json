@@ -31,14 +31,16 @@
         "Position": {
           "X": 50,
           "Y": 30
+          }
         },
         "C_2": {
-        "OP": 10,
-        "HP": 60,
-        "Stamina": 120,
-        "Position": {
-          "X": 50,
-          "Y": 60
+          "OP": 10,
+          "HP": 60,
+          "Stamina": 120,
+          "Position": {
+            "X": 50,
+            "Y": 60
+          }
         },
         "Action_Type": "Roll_OP",
         "Message": "BlahBlahBlah"
