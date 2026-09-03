@@ -1,130 +1,162 @@
 {
   "1": {
-    "Name": "Strov vs. Aegis",
+    "C1": "Strov",
+    "C2": "Aegis",
     "File": "Battle_1.json"
   },
   "2": {
-    "Name": "Strov (Hybrid) vs. Aegis",
+    "C1": "Strov (Hybrid)",
+    "C2": "Aegis",
     "File": "Battle_2.json"
   },
   "3": {
-    "Name": "Strov (Bison) vs. Aegis",
+    "C1": "Strov (Bison)",
+    "C2": "Aegis",
     "File": "Battle_3.json"
   },
   "4": {
-    "Name": "Tsukiko vs. Aegis",
+    "C1": "Tsukiko",
+    "C2": "Aegis",
     "File": "Battle_4.json"
   },
   "5": {
-    "Name": "Iyashi vs. Aegis",
+    "C1": "Iyashi",
+    "C2": "Aegis",
     "File": "Battle_5.json"
   },
   "6": {
-    "Name": "Rhana vs. Aegis",
+    "C1": "Rhana",
+    "C2": "Aegis",
     "File": "Battle_6.json"
   },
   "7": {
-    "Name": "Rhana (Water) vs. Aegis",
+    "C1": "Rhana (Water)",
+    "C2": "Aegis",
     "File": "Battle_7.json"
   }
   "8": {
-    "Name": "Rocky vs. Aegis",
+    "C1": "Rocky",
+    "C2": "Aegis",
     "File": "Battle_8.json"
   },
   "9": {
-    "Name": "Strov vs. Tsukiko",
+    "C1": "Strov",
+    "C2": "Tsukiko",
     "File": "Battle_9.json"
   },
   "10": {
-    "Name": "Strov (Hybrid) vs. Tsukiko",
+    "C1": "Strov (Hybrid)",
+    "C2": "Tsukiko",
     "File": "Battle_10.json"
   },
   "11": {
-    "Name": "Strov (Bison) vs. Tsukiko",
+    "C1": "Strov (Bison)",
+    "C2": "Tsukiko",
     "File": "Battle_11.json"
   },
   "12": {
-    "Name": "Iyashi vs. Tsukiko",
+    "C1": "Iyashi",
+    "C2": "Tsukiko",
     "File": "Battle_12.json"
   },
   "13": {
-    "Name": "Rhana vs. Tsukiko",
+    "C1": "Rhana",
+    "C2": "Tsukiko",
     "File": "Battle_13.json"
   },
   "14": {
-    "Name": "Rhana (Water) vs. Tsukiko",
+    "C1": "Rhana (Water)",
+    "C2": "Tsukiko",
     "File": "Battle_14.json"
   },
   "15": {
-    "Name": "Rocky vs. Tsukiko",
+    "C1": "Rocky",
+    "C2": "Tsukiko",
     "File": "Battle_15.json"
   },
   "16": {
-    "Name": "Strov vs. Iyashi",
+    "C1": "Strov",
+    "C2": "Iyashi",
     "File": "Battle_16.json"
   },
   "17": {
-    "Name": "Strov (Hybrid) vs. Iyashi",
+    "C1": "Strov (Hybrid)",
+    "C2": "Iyashi",
     "File": "Battle_17.json"
   },
   "18": {
-    "Name": "Strov (Bison) vs. Iyashi",
+    "C1": "Strov (Bison)",
+    "C2": "Iyashi",
     "File": "Battle_18.json"
   },
   "19": {
-    "Name": "Rhana vs. Iyashi",
+    "C1": "Rhana",
+    "C2": "Iyashi",
     "Battle": "Battle_19.json"
   },
   "20": {
-    "Name": "Rhana (Water) vs. Iyashi",
+    "C1": "Rhana (Water)",
+    "C2": "Iyashi",
     "File": "Battle_20.json"
   },
   "21": {
-    "Name": "Rocky vs. Iyashi",
+    "C1": "Rocky",
+    "C2": "Iyashi",
     "File": "Battle_21.json"
   },
   "22": {
-    "Name": "Strov vs. Rhana",
+    "C1": "Strov",
+    "C2": "Rhana",
     "File": "Battle_22.json"
   },
   "23": {
-    "Name": "Strov (Hybrid) vs. Rhana",
+    "C1": "Strov (Hybrid)",
+    "C2": "Rhana",
     "File": "Battle_23.json"
   },
   "24": {
-    "Name": "Strov (Bison) vs. Rhana",
+    "C1": "Strov (Bison)",
+    "C2": "Rhana",
     "File": "Battle_24.json"
   },
   "25": {
-    "Name": "Rocky vs. Rhana",
+    "C1": "Rocky",
+    "C2": "Rhana",
     "File": "Battle_25.json"
   },
   "26": {
-    "Name": "Strov vs. Rhana (Water)",
+    "C1": "Strov",
+    "C2": "Rhana (Water)",
     "File": "Battle_26.json"
   },
   "27": {
-    "Name": "Strov (Hybrid) vs. Rhana (Water)",
+    "C1": "Strov (Hybrid)",
+    "C2": "Rhana (Water)",
     "File": "Battle_27.json"
   },
   "28": {
-    "Name": "Strov (Bison) vs. Rhana (Water)",
+    "C1": "Strov (Bison)",
+    "C2": "Rhana (Water)",
     "File": "Battle_28.json"
   },
   "29": {
-    "Name": "Rocky vs. Rhana (Water)",
+    "C1": "Rocky",
+    "C2": "Rhana (Water)",
     "File": "Battle_29.json"
   },
   "30": {
-    "Name": "Strov vs. Rocky",
+    "C1": "Strov",
+    "C2": "Rocky",
     "File": "Battle_30.json"
   },
   "31": {
-    "Name": "Strov (Hybrid) vs. Rocky",
+    "C1": "Strov (Hybrid)",
+    "C2": "Rocky",
     "File": "Battle_31.json"
   },
   "32": {
-    "Name": "Strov (Bison) vs. Rocky",
+    "C1": "Strov (Bison)",
+    "C2": "Rocky",
     "File": "Battle_32.json"
   }
 }
