@@ -1,0 +1,347 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Bison Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 240
+        },
+        "C_2": {
+            "Name": "Water Rhana",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 174
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 240,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Bison Strov rolls 6 OP and Water Rhana rolls 9."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 240,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Water Rhana advances from (85,40) to (73,40) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Bison Strov advances from (45,50) to (54,50) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 240,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 20,
+                "Stamina": 174,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Bison Strov rolls 3 OP and Water Rhana rolls 20."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 240,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Water Rhana advances from (73,40) to (57,47) in 23 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Bison Strov advances from (54,50) to (57,47) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 240,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 174,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Bison Strov rolls 5 OP and Water Rhana rolls 11."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 40,
+                "OP": 5,
+                "Stamina": 240,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 173,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Water Rhana hits Bison Strov in the torso with Punch (Roll 20 (21) vs DEX AC 14 and (20) vs CON AC 14) for 20 bludgeoning damage. HP: 60 -> 40, OP left: 8, Stamina left: 173"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 40,
+                "OP": 5,
+                "Stamina": 240,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 171,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Water Rhana attacks Bison Strov's limbs using Bite (Roll 11 (12) vs DEX AC 14 and (11) vs CON AC 14) but misses. OP left: 5, Stamina left: 171"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 40,
+                "OP": 2,
+                "Stamina": 236,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 171,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Bison Strov attacks Water Rhana's torso using Gore (Roll 7 (6) vs DEX AC 14 and (7) vs CON AC 14) but misses. OP left: 2, Stamina left: 236"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 40,
+                "OP": 2,
+                "Stamina": 236,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 170,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Water Rhana attacks Bison Strov's limbs using Punch (Roll 4 (5) vs DEX AC 16 and (4) vs CON AC 16) but misses. OP left: 2, Stamina left: 170"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 40,
+                "OP": 9,
+                "Stamina": 236,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 170,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Bison Strov rolls 9 OP and Water Rhana rolls 3."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 40,
+                "OP": 6,
+                "Stamina": 230,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 3,
+                "Stamina": 170,
+                "Position": {
+                    "X": 57,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Bison Strov strikes Water Rhana's torso with Charge (Roll 19 (18) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 580, Scrub Doriki: 848)."
+        }
+    ]
+}
