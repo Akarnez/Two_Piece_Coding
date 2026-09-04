@@ -1,0 +1,247 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Hybrid Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 210
+        },
+        "C_2": {
+            "Name": "Rhana",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 174
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 210,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Hybrid Strov rolls 9 OP and Rhana rolls 2."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 57,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Hybrid Strov advances from (45,50) to (57,50) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 57,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 80,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Rhana advances from (85,40) to (80,40) in 5 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 210,
+                "Position": {
+                    "X": 57,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 174,
+                "Position": {
+                    "X": 80,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Hybrid Strov rolls 10 OP and Rhana rolls 8."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 70,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 174,
+                "Position": {
+                    "X": 80,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Hybrid Strov advances from (57,50) to (70,50) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 70,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Rhana advances from (80,40) to (74,45) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 17,
+                "Stamina": 210,
+                "Position": {
+                    "X": 70,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 174,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Hybrid Strov rolls 17 OP and Rhana rolls 3."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 210,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 174,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Hybrid Strov advances from (70,50) to (74,45) in 9 step(s). OP left: 11"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 207,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 3,
+                "Stamina": 174,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Hybrid Strov strikes Rhana's limbs with Greatsword Stab (Roll 13 (17) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 580, Scrub Doriki: 728)."
+        }
+    ]
+}
