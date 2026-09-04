@@ -1,0 +1,472 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Hybrid Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 210
+        },
+        "C_2": {
+            "Name": "Water Rhana",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 174
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 210,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Hybrid Strov rolls 10 OP and Water Rhana rolls 6."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 58,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Hybrid Strov advances from (45,50) to (58,50) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 58,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 76,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Water Rhana advances from (85,40) to (76,40) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 210,
+                "Position": {
+                    "X": 58,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 76,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Hybrid Strov rolls 4 OP and Water Rhana rolls 7."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 210,
+                "Position": {
+                    "X": 58,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 67,
+                    "Y": 41
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Water Rhana advances from (76,40) to (67,41) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 67,
+                    "Y": 41
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Hybrid Strov advances from (58,50) to (62,47) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 210,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 174,
+                "Position": {
+                    "X": 67,
+                    "Y": 41
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Hybrid Strov rolls 4 OP and Water Rhana rolls 10."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 210,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 174,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Water Rhana advances from (67,41) to (62,47) in 11 step(s). OP left: 2"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 209,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 174,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Hybrid Strov attacks Water Rhana's limbs using Kick (Roll 15 (14) vs DEX AC 16 and (15) vs CON AC 16) but misses. OP left: 1, Stamina left: 209"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 209,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 13,
+                "Stamina": 174,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Hybrid Strov rolls 7 OP and Water Rhana rolls 13."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 209,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 173,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Water Rhana attacks Hybrid Strov's torso using Punch (Roll 9 (10) vs DEX AC 14 and (7) vs CON AC 14) but misses. OP left: 10, Stamina left: 173"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 209,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 171,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Water Rhana hits Hybrid Strov's limbs using Bite (Roll 13 (14) vs DEX AC 14 and (11) vs CON AC 14) but does NO DAMAGE. OP left: 7, Stamina left: 171"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 208,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 171,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Hybrid Strov attacks Water Rhana's torso using Punch (Roll 8 (7) vs DEX AC 14 and (8) vs CON AC 14) but misses. OP left: 4, Stamina left: 208"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 208,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 170,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 2: Water Rhana attacks Hybrid Strov's torso using Punch (Roll 4 (5) vs DEX AC 14 and (2) vs CON AC 14) but misses. OP left: 4, Stamina left: 170"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 207,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 170,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 2: Hybrid Strov attacks Water Rhana's limbs using Kick (Roll 11 (10) vs DEX AC 16 and (11) vs CON AC 16) but misses. OP left: 1, Stamina left: 207"
+        },
+        {
+            "Round": 4,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 207,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 168,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 3: Water Rhana hits Hybrid Strov's head using Bite (Roll 19 (20) vs DEX AC 20 and (17) vs CON AC 20) but does NO DAMAGE. OP left: 1, Stamina left: 168"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 22,
+                "Stamina": 207,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 168,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Hybrid Strov rolls 22 OP and Water Rhana rolls 3."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 19,
+                "Stamina": 206,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 3,
+                "Stamina": 168,
+                "Position": {
+                    "X": 62,
+                    "Y": 47
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Hybrid Strov strikes Water Rhana's torso with Kick (Roll 20 (19) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 580, Scrub Doriki: 728)."
+        }
+    ]
+}
