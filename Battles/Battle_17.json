@@ -1,0 +1,347 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Bison Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 240
+        },
+        "C_2": {
+            "Name": "Iyashi",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 198
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 240,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 198,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Bison Strov rolls 6 OP and Iyashi rolls 4."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 198,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Bison Strov advances from (45,50) to (54,50) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 78,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Iyashi advances from (85,40) to (78,40) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 240,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 198,
+                "Position": {
+                    "X": 78,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Bison Strov rolls 4 OP and Iyashi rolls 6."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 240,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Iyashi advances from (78,40) to (69,40) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 60,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Bison Strov advances from (54,50) to (60,49) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 240,
+                "Position": {
+                    "X": 60,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 198,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Bison Strov rolls 15 OP and Iyashi rolls 2."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 198,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Bison Strov advances from (60,49) to (69,40) in 18 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 14,
+                "Stamina": 240,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 198,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Bison Strov rolls 14 OP and Iyashi rolls 2."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 238,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 198,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Bison Strov attacks Iyashi's torso using Kick (Roll 9 (13) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 11, Stamina left: 238"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 236,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 198,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Bison Strov attacks Iyashi's torso using Kick (Roll 6 (10) vs DEX AC 14 and (6) vs CON AC 14) but misses. OP left: 8, Stamina left: 236"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 234,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 198,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Bison Strov attacks Iyashi's torso using Kick (Roll 8 (12) vs DEX AC 14 and (8) vs CON AC 14) but misses. OP left: 5, Stamina left: 234"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 232,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 2,
+                "Stamina": 198,
+                "Position": {
+                    "X": 69,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Bison Strov strikes Iyashi's torso with Kick (Roll 17 (21) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 700, Scrub Doriki: 848)."
+        }
+    ]
+}
