@@ -1,0 +1,197 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Bison Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 240
+        },
+        "C_2": {
+            "Name": "Tsukiko",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 162
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 240,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Bison Strov rolls 15 OP and Tsukiko rolls 9."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 63,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Bison Strov advances from (45,50) to (63,50) in 18 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 63,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Tsukiko advances from (85,40) to (73,40) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 240,
+                "Position": {
+                    "X": 63,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 162,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Bison Strov rolls 8 OP and Tsukiko rolls 9."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 240,
+                "Position": {
+                    "X": 63,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 67,
+                    "Y": 46
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Tsukiko advances from (73,40) to (67,46) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 240,
+                "Position": {
+                    "X": 67,
+                    "Y": 46
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 67,
+                    "Y": 46
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Bison Strov advances from (63,50) to (67,46) in 8 step(s). OP left: 3"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 236,
+                "Position": {
+                    "X": 67,
+                    "Y": 46
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 67,
+                    "Y": 46
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 2, Turn 2: Bison Strov strikes Tsukiko's torso with Gore (Roll 20 (20) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 525, Scrub Doriki: 848)."
+        }
+    ]
+}
