@@ -1,0 +1,347 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Hybrid Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 210
+        },
+        "C_2": {
+            "Name": "Aegis",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 168
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 210,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 168,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Hybrid Strov rolls 9 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 57,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 168,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Hybrid Strov advances from (45,50) to (57,50) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 57,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 167,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis hits Hybrid Strov in the limbs with Pistol (Roll 15 (15) vs DEX AC 14 and (15) vs CON AC 14) for 15 piercing damage. HP: 60 -> 45, OP left: 0, Stamina left: 167"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 210,
+                "Position": {
+                    "X": 57,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 167,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Hybrid Strov rolls 7 OP and Aegis rolls 8."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 210,
+                "Position": {
+                    "X": 57,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 167,
+                "Position": {
+                    "X": 96,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Aegis kites from (85, 40) to (96, 40) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 67,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 167,
+                "Position": {
+                    "X": 96,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Hybrid Strov advances from (57,50) to (67,50) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 5,
+                "Stamina": 210,
+                "Position": {
+                    "X": 67,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 167,
+                "Position": {
+                    "X": 96,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Hybrid Strov rolls 5 OP and Aegis rolls 6."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 30,
+                "OP": 5,
+                "Stamina": 210,
+                "Position": {
+                    "X": 67,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 166,
+                "Position": {
+                    "X": 96,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Aegis hits Hybrid Strov in the torso with Pistol (Roll 15 (15) vs DEX AC 14 and (15) vs CON AC 14) for 15 piercing damage. HP: 45 -> 30, OP left: 3, Stamina left: 166"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 30,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 75,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 166,
+                "Position": {
+                    "X": 96,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 2: Hybrid Strov advances from (67,50) to (75,50) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 15,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 75,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 165,
+                "Position": {
+                    "X": 96,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Aegis hits Hybrid Strov in the torso with Pistol (Roll 19 (19) vs DEX AC 14 and (19) vs CON AC 14) for 15 piercing damage. HP: 30 -> 15, OP left: 0, Stamina left: 165"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 15,
+                "OP": 4,
+                "Stamina": 210,
+                "Position": {
+                    "X": 75,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 165,
+                "Position": {
+                    "X": 96,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Hybrid Strov rolls 4 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 15,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 82,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 165,
+                "Position": {
+                    "X": 96,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 1: Hybrid Strov advances from (75,50) to (82,50) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 0,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 82,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 164,
+                "Position": {
+                    "X": 96,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Aegis hits Hybrid Strov in the torso with Pistol (Roll 17 (17) vs DEX AC 14 and (17) vs CON AC 14) for 15 piercing damage. HP: 15 -> 0, OP left: 0, Stamina left: 164"
+        }
+    ]
+}
