@@ -1,0 +1,472 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Bison Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 240
+        },
+        "C_2": {
+            "Name": "Aegis",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 168
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 17,
+                "Stamina": 240,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 168,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Bison Strov rolls 17 OP and Aegis rolls 9."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 65,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 168,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Bison Strov advances from (45,50) to (65,50) in 20 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 65,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 167,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis attacks Bison Strov's torso using Pistol (Roll 1 (1) vs DEX AC 14 and (1) vs CON AC 14) but misses. OP left: 6, Stamina left: 167"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 65,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 166,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 2: Aegis attacks Bison Strov's limbs using Pistol (Roll 13 (13) vs DEX AC 14 and (13) vs CON AC 14) but misses. OP left: 3, Stamina left: 166"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 65,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 165,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 2: Aegis attacks Bison Strov's torso using Pistol (Roll 13 (13) vs DEX AC 14 and (13) vs CON AC 14) but misses. OP left: 0, Stamina left: 165"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 240,
+                "Position": {
+                    "X": 65,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 165,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Bison Strov rolls 9 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 240,
+                "Position": {
+                    "X": 65,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 164,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 2, Turn 1: Aegis attacks Bison Strov's torso using Pistol (Roll 3 (3) vs DEX AC 14 and (3) vs CON AC 14) but misses. OP left: 8, Stamina left: 164"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 76,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 164,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Bison Strov advances from (65,50) to (76,49) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 76,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 163,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 2, Turn 1: Aegis attacks Bison Strov's torso using Pistol (Roll 8 (8) vs DEX AC 14 and (8) vs CON AC 14) but misses. OP left: 5, Stamina left: 163"
+        },
+        {
+            "Round": 2,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 76,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 163,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 3: Aegis kites from (85, 40) to (93, 40) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 240,
+                "Position": {
+                    "X": 76,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 163,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Bison Strov rolls 10 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 87,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 163,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Bison Strov advances from (76,49) to (87,47) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 87,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 162,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Aegis attacks Bison Strov's torso using Pistol (Roll 4 (4) vs DEX AC 14 and (4) vs CON AC 14) but misses. OP left: 1, Stamina left: 162"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 240,
+                "Position": {
+                    "X": 87,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 162,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Bison Strov rolls 11 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 240,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 162,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 1: Bison Strov advances from (87,47) to (93,40) in 13 step(s). OP left: 1"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 1,
+                "Stamina": 240,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 161,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Aegis hits Bison Strov in the torso with Pistol (Roll 17 (17) vs DEX AC 14 and (17) vs CON AC 14) for 15 piercing damage. HP: 60 -> 45, OP left: 0, Stamina left: 161"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 11,
+                "Stamina": 240,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 161,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Bison Strov rolls 11 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 8,
+                "Stamina": 236,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 11,
+                "Stamina": 161,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Bison Strov strikes Aegis's torso with Gore (Roll 14 (14) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 550, Scrub Doriki: 848)."
+        }
+    ]
+}
