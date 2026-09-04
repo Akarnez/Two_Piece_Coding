@@ -1,0 +1,747 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Water Rhana",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 174
+        },
+        "C_2": {
+            "Name": "Aegis",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 168
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 168,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Water Rhana rolls 7 OP and Aegis rolls 9."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 167,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis hits Water Rhana's limbs using Pistol (Roll 20 (20) vs DEX AC 14 and (12) vs CON AC 14) but does NO DAMAGE. OP left: 6, Stamina left: 167"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 167,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Water Rhana advances from (45,50) to (55,50) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 166,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis attacks Water Rhana's head using Pistol (Roll 15 (15) vs DEX AC 20 and (7) vs CON AC 20) but misses. OP left: 3, Stamina left: 166"
+        },
+        {
+            "Round": 1,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 165,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 3: Aegis attacks Water Rhana's torso using Pistol (Roll 11 (11) vs DEX AC 14 and (3) vs CON AC 14) but misses. OP left: 0, Stamina left: 165"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 165,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Water Rhana rolls 5 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 165,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Aegis kites from (85, 40) to (99, 40) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 63,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 165,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Water Rhana advances from (55,50) to (63,50) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 174,
+                "Position": {
+                    "X": 63,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 165,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Water Rhana rolls 8 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 174,
+                "Position": {
+                    "X": 63,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 165,
+                "Position": {
+                    "X": 100,
+                    "Y": 27
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Aegis kites from (99, 40) to (100, 27) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 74,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 165,
+                "Position": {
+                    "X": 100,
+                    "Y": 27
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 2: Water Rhana advances from (63,50) to (74,50) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 174,
+                "Position": {
+                    "X": 74,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 165,
+                "Position": {
+                    "X": 100,
+                    "Y": 27
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Water Rhana rolls 11 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 83,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 165,
+                "Position": {
+                    "X": 100,
+                    "Y": 27
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 1: Water Rhana advances from (74,50) to (83,45) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 83,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 164,
+                "Position": {
+                    "X": 100,
+                    "Y": 27
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Aegis attacks Water Rhana's torso using Pistol (Roll 10 (10) vs DEX AC 14 and (2) vs CON AC 14) but misses. OP left: 1, Stamina left: 164"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 174,
+                "Position": {
+                    "X": 83,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 164,
+                "Position": {
+                    "X": 100,
+                    "Y": 27
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Water Rhana rolls 5 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 174,
+                "Position": {
+                    "X": 83,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 163,
+                "Position": {
+                    "X": 100,
+                    "Y": 27
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Aegis hits Water Rhana's limbs using Pistol (Roll 19 (19) vs DEX AC 14 and (11) vs CON AC 14) but does NO DAMAGE. OP left: 8, Stamina left: 163"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 174,
+                "Position": {
+                    "X": 83,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 163,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 5, Turn 1: Aegis kites from (100, 27) to (100, 16) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 5,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 83,
+                    "Y": 37
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 163,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 5, Turn 2: Water Rhana advances from (83,45) to (83,37) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 6,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 174,
+                "Position": {
+                    "X": 83,
+                    "Y": 37
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 163,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 6 Start: Water Rhana rolls 11 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 88,
+                    "Y": 28
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 163,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 6, Turn 1: Water Rhana advances from (83,37) to (88,28) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 88,
+                    "Y": 28
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 162,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Aegis attacks Water Rhana's torso using Pistol (Roll 1 (1) vs DEX AC 14 and (-7) vs CON AC 14) but misses. OP left: 1, Stamina left: 162"
+        },
+        {
+            "Round": 7,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 174,
+                "Position": {
+                    "X": 88,
+                    "Y": 28
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 162,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 7 Start: Water Rhana rolls 10 OP and Aegis rolls 5."
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 95,
+                    "Y": 22
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 162,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 7, Turn 1: Water Rhana advances from (88,28) to (95,22) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 95,
+                    "Y": 22
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 161,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 1: Aegis attacks Water Rhana's torso using Pistol (Roll 2 (2) vs DEX AC 14 and (-6) vs CON AC 14) but misses. OP left: 2, Stamina left: 161"
+        },
+        {
+            "Round": 8,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 17,
+                "Stamina": 174,
+                "Position": {
+                    "X": 95,
+                    "Y": 22
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 161,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 8 Start: Water Rhana rolls 17 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 174,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 161,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 8, Turn 1: Water Rhana advances from (95,22) to (100,16) in 11 step(s). OP left: 9"
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 174,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 160,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Aegis attacks Water Rhana's torso using Pistol (Roll 2 (2) vs DEX AC 14 and (-6) vs CON AC 14) but misses. OP left: 1, Stamina left: 160"
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 172,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 160,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Water Rhana attacks Aegis's torso using Bite (Roll 13 (13) vs DEX AC 14 and (13) vs CON AC 14) but misses. OP left: 6, Stamina left: 172"
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 171,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 1,
+                "Stamina": 160,
+                "Position": {
+                    "X": 100,
+                    "Y": 16
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Water Rhana strikes Aegis's torso with Punch (Roll 20 (20) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 550, Scrub Doriki: 576)."
+        }
+    ]
+}
