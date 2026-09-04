@@ -1,0 +1,1172 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Tsukiko",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 162
+        },
+        "C_2": {
+            "Name": "Aegis",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 168
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 162,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 168,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Tsukiko rolls 7 OP and Aegis rolls 8."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 162,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 167,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis attacks Tsukiko's limbs using Pistol (Roll 1 (1) vs DEX AC 14 and (-1) vs CON AC 14) but misses. OP left: 5, Stamina left: 167"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 167,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Tsukiko advances from (45,50) to (55,50) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 166,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis attacks Tsukiko's torso using Pistol (Roll 9 (9) vs DEX AC 14 and (7) vs CON AC 14) but misses. OP left: 2, Stamina left: 166"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 162,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 166,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Tsukiko rolls 9 OP and Aegis rolls 8."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 67,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 166,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Tsukiko advances from (55,50) to (67,50) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 67,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 165,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 2, Turn 1: Aegis hits Tsukiko in the limbs with Pistol (Roll 16 (16) vs DEX AC 14 and (14) vs CON AC 14) for 15 piercing damage. HP: 60 -> 45, OP left: 5, Stamina left: 165"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 67,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 164,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 2, Turn 2: Aegis attacks Tsukiko's torso using Pistol (Roll 8 (8) vs DEX AC 14 and (6) vs CON AC 14) but misses. OP left: 2, Stamina left: 164"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 17,
+                "Stamina": 162,
+                "Position": {
+                    "X": 67,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 164,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Tsukiko rolls 17 OP and Aegis rolls 5."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 81,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 164,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Tsukiko advances from (67,50) to (81,44) in 20 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 81,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 163,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Aegis attacks Tsukiko's torso using Pistol (Roll 3 (3) vs DEX AC 14 and (1) vs CON AC 14) but misses. OP left: 2, Stamina left: 163"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 21,
+                "Stamina": 162,
+                "Position": {
+                    "X": 81,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 163,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Tsukiko rolls 21 OP and Aegis rolls 10."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 16,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 163,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 1: Tsukiko advances from (81,44) to (85,40) in 8 step(s). OP left: 16"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 16,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Aegis attacks Tsukiko's limbs using Pistol (Roll 11 (11) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 7, Stamina left: 162"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 13,
+                "Stamina": 159,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko hits Aegis in the torso with Shortsword Stab (Roll 15 (15) vs DEX AC 14 and (15) vs CON AC 14) for 15 piercing damage. HP: 60 -> 45, OP left: 13, Stamina left: 159"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 10,
+                "Stamina": 157,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko attacks Aegis's torso using Dagger (Roll 4 (4) vs DEX AC 14 and (4) vs CON AC 14) but misses. OP left: 10, Stamina left: 157"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 154,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko attacks Aegis's limbs using Shortsword Slash (Roll 3 (3) vs DEX AC 14 and (3) vs CON AC 14) but misses. OP left: 7, Stamina left: 154"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 152,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko attacks Aegis's limbs using Dagger Sneak Attack (Roll 11 (11) vs DEX AC 14 and (11) vs CON AC 14) but misses. OP left: 4, Stamina left: 152"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 152,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 161,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 2: Aegis attacks Tsukiko's limbs using Punch (Roll 14 (14) vs DEX AC 16 and (12) vs CON AC 16) but misses. OP left: 4, Stamina left: 161"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 152,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 161,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 2: Aegis kites from (85, 40) to (92, 40) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 152,
+                "Position": {
+                    "X": 89,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 161,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 3: Tsukiko advances from (85,40) to (89,40) in 4 step(s). OP left: 0"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 152,
+                "Position": {
+                    "X": 89,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 19,
+                "Stamina": 161,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Tsukiko rolls 7 OP and Aegis rolls 19."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 152,
+                "Position": {
+                    "X": 89,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 16,
+                "Stamina": 160,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Aegis attacks Tsukiko's head using Pistol (Roll 9 (9) vs DEX AC 20 and (7) vs CON AC 20) but misses. OP left: 16, Stamina left: 160"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 152,
+                "Position": {
+                    "X": 89,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 13,
+                "Stamina": 159,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Aegis attacks Tsukiko's torso using Acid Gun (Roll 9 (9) vs DEX AC 14 and (7) vs CON AC 14) but misses. OP left: 13, Stamina left: 159"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 152,
+                "Position": {
+                    "X": 89,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 10,
+                "Stamina": 158,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Aegis attacks Tsukiko's torso using Acid Gun (Roll 7 (7) vs DEX AC 14 and (5) vs CON AC 14) but misses. OP left: 10, Stamina left: 158"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 152,
+                "Position": {
+                    "X": 89,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 157,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Aegis attacks Tsukiko's torso using Pistol (Roll 2 (2) vs DEX AC 14 and (0) vs CON AC 14) but misses. OP left: 7, Stamina left: 157"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 5,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 152,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 157,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 5, Turn 1: Tsukiko advances from (89,40) to (92,40) in 3 step(s). OP left: 7"
+        },
+        {
+            "Round": 5,
+            "Turn": 5,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 152,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 156,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 5: Aegis attacks Tsukiko's torso using Pistol (Roll 6 (6) vs DEX AC 14 and (4) vs CON AC 14) but misses. OP left: 4, Stamina left: 156"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 5,
+            "C1": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 150,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 156,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Tsukiko attacks Aegis's torso using Dagger (Roll 2 (2) vs DEX AC 14 and (2) vs CON AC 14) but misses. OP left: 4, Stamina left: 150"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 6,
+            "C1": {
+                "HP": 45,
+                "OP": 1,
+                "Stamina": 148,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 156,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Tsukiko attacks Aegis's limbs using Dagger (Roll 3 (3) vs DEX AC 14 and (3) vs CON AC 14) but misses. OP left: 1, Stamina left: 148"
+        },
+        {
+            "Round": 5,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 1,
+                "Stamina": 148,
+                "Position": {
+                    "X": 92,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 156,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 5, Turn 2: Aegis kites from (92, 40) to (99, 40) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 5,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 156,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 5, Turn 3: Tsukiko advances from (92,40) to (93,40) in 1 step(s). OP left: 0"
+        },
+        {
+            "Round": 6,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 21,
+                "Stamina": 148,
+                "Position": {
+                    "X": 93,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 11,
+                "Stamina": 156,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 6 Start: Tsukiko rolls 21 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 18,
+                "Stamina": 148,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 11,
+                "Stamina": 156,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 6, Turn 1: Tsukiko advances from (93,40) to (99,40) in 6 step(s). OP left: 18"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 18,
+                "Stamina": 148,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 45,
+                "OP": 8,
+                "Stamina": 155,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Aegis attacks Tsukiko's torso using Pistol (Roll 6 (6) vs DEX AC 14 and (4) vs CON AC 14) but misses. OP left: 8, Stamina left: 155"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 15,
+                "Stamina": 146,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 30,
+                "OP": 8,
+                "Stamina": 155,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Tsukiko hits Aegis in the torso with Dagger (Roll 14 (14) vs DEX AC 14 and (14) vs CON AC 14) for 15 piercing damage. HP: 45 -> 30, OP left: 15, Stamina left: 146"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 12,
+                "Stamina": 143,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 30,
+                "OP": 8,
+                "Stamina": 155,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Tsukiko attacks Aegis's torso using Shortsword Stab (Roll 4 (4) vs DEX AC 14 and (4) vs CON AC 14) but misses. OP left: 12, Stamina left: 143"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 45,
+                "OP": 9,
+                "Stamina": 141,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 15,
+                "OP": 8,
+                "Stamina": 155,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Tsukiko hits Aegis in the torso with Dagger (Roll 14 (14) vs DEX AC 14 and (14) vs CON AC 14) for 15 piercing damage. HP: 30 -> 15, OP left: 9, Stamina left: 141"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 45,
+                "OP": 6,
+                "Stamina": 138,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 15,
+                "OP": 8,
+                "Stamina": 155,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Tsukiko attacks Aegis's torso using Shortsword Stab (Roll 11 (11) vs DEX AC 14 and (11) vs CON AC 14) but misses. OP left: 6, Stamina left: 138"
+        },
+        {
+            "Round": 6,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 6,
+                "Stamina": 138,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 15,
+                "OP": 0,
+                "Stamina": 155,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 6, Turn 2: Aegis kites from (99, 40) to (100, 40) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 6,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 3,
+                "Stamina": 135,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 15,
+                "OP": 0,
+                "Stamina": 155,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 3: Tsukiko attacks Aegis's torso using Shortsword Slash (Roll 2 (2) vs DEX AC 16 and (2) vs CON AC 16) but misses. OP left: 3, Stamina left: 135"
+        },
+        {
+            "Round": 6,
+            "Turn": 3,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 132,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 15,
+                "OP": 0,
+                "Stamina": 155,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 3: Tsukiko attacks Aegis's head using Shortsword Stab (Roll 6 (6) vs DEX AC 20 and (6) vs CON AC 20) but misses. OP left: 0, Stamina left: 132"
+        },
+        {
+            "Round": 7,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 6,
+                "Stamina": 132,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 15,
+                "OP": 11,
+                "Stamina": 155,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 7 Start: Tsukiko rolls 6 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 6,
+                "Stamina": 132,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 15,
+                "OP": 0,
+                "Stamina": 155,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 7, Turn 1: Aegis kites from (100, 40) to (100, 40) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 7,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 3,
+                "Stamina": 129,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 15,
+                "OP": 0,
+                "Stamina": 155,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 2: Tsukiko attacks Aegis's head using Shortsword Slash (Roll 9 (9) vs DEX AC 20 and (9) vs CON AC 20) but misses. OP left: 3, Stamina left: 129"
+        },
+        {
+            "Round": 7,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 126,
+                "Position": {
+                    "X": 99,
+                    "Y": 40
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 0,
+                "Stamina": 155,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 2: Tsukiko hits Aegis in the torso with Shortsword Stab (Roll 19 (19) vs DEX AC 14 and (19) vs CON AC 14) for 15 piercing damage. HP: 15 -> 0, OP left: 0, Stamina left: 126"
+        }
+    ]
+}
