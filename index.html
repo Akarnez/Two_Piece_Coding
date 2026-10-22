@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Piece Battle Visualizer</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <div id="NameChoice">
+        <label for="c1">Combatants</label>
+        <select type="text" id="c1" name="c1">
+            <option value="Strov">Strov</option>
+            <option value="Strov (Hybrid)">Strov (Hybrid)</option>
+            <option value="Strov (Bison)">Strov (Bison)</option>
+            <option value="Aegis">Aegis</option>
+            <option value="Tsukiko">Tsukiko</option>
+            <option value="Iyashi">Iyashi</option>
+            <option value="Rhana">Rhana</option>
+            <option value="Rhana (Water)">Rhana (Water)</option>
+            <option value="Rocky">Rocky</option>
+        </select>
+        <label for="c2"> vs. </label>
+        <select type="text" id="c2" name="c2">
+            <option value="Strov">Strov</option>
+            <option value="Strov (Hybrid)">Strov (Hybrid)</option>
+            <option value="Strov (Bison)">Strov (Bison)</option>
+            <option value="Aegis" selected>Aegis</option>
+            <option value="Tsukiko">Tsukiko</option>
+            <option value="Iyashi">Iyashi</option>
+            <option value="Rhana">Rhana</option>
+            <option value="Rhana (Water)">Rhana (Water)</option>
+            <option value="Rocky">Rocky</option>
+        </select>
+        <input type="submit" id="ChooseFighters" value="Go!"></button>
+    </div>
+    <div id="TopContainer" class="container">
+        <div id="Arena" class = "grid"></div>
+        <div id="stats">
+            <div id="player1" class="playerInfo">
+                <div id="player1HP" class="infoBar">
+                    <span id="hpBarText1" class="barText">Player 1 HP: / 60</span>
+                    <div id="hpBar1" class = "healthBar"></div>
+                </div>
+                <div id="player1ST" class="infoBar">
+                    <span id="stBarText1" class="barText">Player 1 ST: / </span>
+                    <div id="stBar1" class = "staminaBar"></div>
+                </div>
+                <div id="player1OP" class="infoBar">
+                    <span id="opBarText1" class="barText">Player 1 OP: / </span>
+                    <div id="opBar1" class = "OPBar"></div>
+                </div>
+            </div>
+                
+            <div id="player2" class="playerInfo">
+                <div id="player2HP" class="infoBar">
+                    <span id="hpBarText2" class="barText">Player 2 HP: / 60</span>
+                    <div id="hpBar2" class = "healthBar"></div>
+                </div>
+                <div id="player2ST" class="infoBar">
+                    <span id="stBarText2" class="barText">Player 2 ST: / </span>
+                    <div id="stBar2" class = "staminaBar"></div>
+                </div>
+                <div id="player2OP" class="infoBar">
+                    <span id="opBarText2" class="barText">Player 2 OP: / </span>
+                    <div id="opBar2" class = "OPBar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="interactive">
+        <div id = "Buttons">
+            <button id="StartButton">Start</button>
+            <button id="BackButton">Back</button>
+            <button id="PlayPauseButton">Play</button>
+            <button id="NextButton">Next</button>
+            <button id="EndButton">End</button>
+            <select name="speed" id="nextSpeed">
+                <option value="0.25">0.25x</option>
+                <option value="0.5">0.5x</option>
+                <option value="0.75">0.75x</option>
+                <option value="1" selected>1x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="1.75">1.75x</option>
+                <option value="2">2x</option>
+            </select>
+        </div>
+        <div id="descriptionBox">
+            <span id="description"></span>
+        </div>
+    </div>
+</body>
+<script type = "module" src="Battle_Visualizer.js"></script>
+</html>
