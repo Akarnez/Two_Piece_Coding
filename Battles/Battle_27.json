@@ -1,0 +1,247 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Strov (Hybrid)",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 210
+        },
+        "C_2": {
+            "Name": "Rhana (Water)",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 174
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 22,
+                "Stamina": 210,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Strov (Hybrid) rolls 22 OP and Rhana (Water) rolls 6."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 70,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Strov (Hybrid) advances from (45,50) to (70,50) in 25 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 70,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 78,
+                    "Y": 42
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Rhana (Water) advances from (85,40) to (78,42) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 210,
+                "Position": {
+                    "X": 70,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 174,
+                "Position": {
+                    "X": 78,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Strov (Hybrid) rolls 8 OP and Rhana (Water) rolls 6."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 76,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 174,
+                "Position": {
+                    "X": 78,
+                    "Y": 42
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Strov (Hybrid) advances from (70,50) to (76,45) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 76,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 76,
+                    "Y": 44
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Rhana (Water) advances from (78,42) to (76,44) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 210,
+                "Position": {
+                    "X": 76,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 76,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Strov (Hybrid) rolls 10 OP and Rhana (Water) rolls 7."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 209,
+                "Position": {
+                    "X": 76,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 76,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Strov (Hybrid) attacks Rhana (Water)'s limbs using Punch (Roll 15 (14) vs DEX AC 16 and (15) vs CON AC 16) but misses. OP left: 7, Stamina left: 209"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 208,
+                "Position": {
+                    "X": 76,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 76,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Strov (Hybrid) strikes Rhana (Water)'s torso with Kick (Roll 15 (14) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 580, Scrub Doriki: 728)."
+        }
+    ]
+}

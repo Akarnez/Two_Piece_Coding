@@ -1,0 +1,322 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Rocky",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 172
+        },
+        "C_2": {
+            "Name": "Rhana",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 174
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Rocky rolls 3 OP and Rhana rolls 9."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Rhana advances from (85,40) to (73,40) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 51,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Rocky advances from (45,50) to (51,50) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 172,
+                "Position": {
+                    "X": 51,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 20,
+                "Stamina": 174,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Rocky rolls 11 OP and Rhana rolls 20."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 172,
+                "Position": {
+                    "X": 51,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 45
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Rhana advances from (73,40) to (55,45) in 23 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 55,
+                    "Y": 46
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 45
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Rocky advances from (51,50) to (55,46) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 55,
+                    "Y": 46
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 21,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 45
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Rocky rolls 3 OP and Rhana rolls 21."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 55,
+                    "Y": 46
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 18,
+                "Stamina": 173,
+                "Position": {
+                    "X": 55,
+                    "Y": 45
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Rhana attacks Rocky's torso using Punch (Roll 2 (0) vs DEX AC 14 and (2) vs CON AC 14) but misses. OP left: 18, Stamina left: 173"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 55,
+                    "Y": 46
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 172,
+                "Position": {
+                    "X": 55,
+                    "Y": 45
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Rhana attacks Rocky's limbs using Punch (Roll 6 (4) vs DEX AC 16 and (6) vs CON AC 16) but misses. OP left: 15, Stamina left: 172"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 55,
+                    "Y": 46
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 12,
+                "Stamina": 170,
+                "Position": {
+                    "X": 55,
+                    "Y": 45
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Rhana attacks Rocky's limbs using Bite (Roll 6 (4) vs DEX AC 14 and (6) vs CON AC 14) but misses. OP left: 12, Stamina left: 170"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 55,
+                    "Y": 46
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 169,
+                "Position": {
+                    "X": 55,
+                    "Y": 45
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Rhana attacks Rocky's limbs using Punch (Roll 1 (-1) vs DEX AC 16 and (1) vs CON AC 16) but misses. OP left: 9, Stamina left: 169"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 5,
+            "C1": {
+                "HP": 0,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 55,
+                    "Y": 46
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 168,
+                "Position": {
+                    "X": 55,
+                    "Y": 45
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Rhana strikes Rocky's torso with Punch (Roll 16 (14) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 570, Scrub Doriki: 576)."
+        }
+    ]
+}

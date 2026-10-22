@@ -1,0 +1,247 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Strov (Bison)",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 240
+        },
+        "C_2": {
+            "Name": "Rocky",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 172
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 240,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 172,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Strov (Bison) rolls 11 OP and Rocky rolls 8."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 59,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 172,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Strov (Bison) advances from (45,50) to (59,50) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 59,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 74,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Rocky advances from (85,40) to (74,40) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 240,
+                "Position": {
+                    "X": 59,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 172,
+                "Position": {
+                    "X": 74,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Strov (Bison) rolls 15 OP and Rocky rolls 5."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 172,
+                "Position": {
+                    "X": 74,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Strov (Bison) advances from (59,50) to (71,44) in 18 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 71,
+                    "Y": 43
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Rocky advances from (74,40) to (71,43) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 240,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 172,
+                "Position": {
+                    "X": 71,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Strov (Bison) rolls 11 OP and Rocky rolls 7."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 234,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 172,
+                "Position": {
+                    "X": 71,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Strov (Bison) attacks Rocky's torso using Charge (Roll 10 (11) vs DEX AC 14 and (10) vs CON AC 14) but misses. OP left: 8, Stamina left: 234"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 232,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 7,
+                "Stamina": 172,
+                "Position": {
+                    "X": 71,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Strov (Bison) strikes Rocky's torso with Kick (Roll 19 (20) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 570, Scrub Doriki: 848)."
+        }
+    ]
+}

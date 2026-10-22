@@ -1,0 +1,3197 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Iyashi",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 198
+        },
+        "C_2": {
+            "Name": "Aegis",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 168
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 198,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 168,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Iyashi rolls 6 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 168,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Iyashi advances from (45,50) to (54,50) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 167,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis attacks Iyashi's torso using Pistol (Roll 6 (10) vs DEX AC 14 and (6) vs CON AC 14) but misses. OP left: 0, Stamina left: 167"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 198,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 167,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Iyashi rolls 2 OP and Aegis rolls 8."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 198,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 166,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 2, Turn 1: Aegis attacks Iyashi's limbs using Pistol (Roll 9 (13) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 5, Stamina left: 166"
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 198,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 165,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 2, Turn 1: Aegis strikes Iyashi's head with Pistol (Roll 20 (24)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 59,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 165,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Iyashi advances from (54,50) to (59,50) in 5 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 198,
+                "Position": {
+                    "X": 59,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 165,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Iyashi rolls 5 OP and Aegis rolls 8."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 198,
+                "Position": {
+                    "X": 59,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 164,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Aegis strikes Iyashi's torso with Pistol (Roll 17 (21)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 67,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 164,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Iyashi advances from (59,50) to (67,50) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 67,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 163,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Aegis strikes Iyashi's limbs with Pistol (Roll 13 (17)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 198,
+                "Position": {
+                    "X": 67,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 163,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Iyashi rolls 7 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 76,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 163,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 1: Iyashi advances from (67,50) to (76,49) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 76,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Aegis attacks Iyashi's torso using Pistol (Roll 3 (7) vs DEX AC 14 and (3) vs CON AC 14) but misses. OP left: 0, Stamina left: 162"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 198,
+                "Position": {
+                    "X": 76,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Iyashi rolls 6 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 81,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 5, Turn 1: Iyashi advances from (76,49) to (81,45) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 81,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 161,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Aegis strikes Iyashi's torso with Pistol (Roll 16 (20)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 6,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 198,
+                "Position": {
+                    "X": 81,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 161,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 6 Start: Iyashi rolls 4 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 84,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 161,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 6, Turn 1: Iyashi advances from (81,45) to (84,41) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 84,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 160,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Aegis strikes Iyashi's torso with Pistol (Roll 11 (15)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 7,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 198,
+                "Position": {
+                    "X": 84,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 160,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 7 Start: Iyashi rolls 4 OP and Aegis rolls 15."
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 198,
+                "Position": {
+                    "X": 84,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 12,
+                "Stamina": 159,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 1: Aegis attacks Iyashi's torso using Acid Gun (Roll 9 (13) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 12, Stamina left: 159"
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 198,
+                "Position": {
+                    "X": 84,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 159,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 7, Turn 1: Aegis kites from (85, 40) to (100, 40) in 15 step(s). OP left: 0"
+        },
+        {
+            "Round": 7,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 91,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 159,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 7, Turn 2: Iyashi advances from (84,41) to (91,41) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 8,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 198,
+                "Position": {
+                    "X": 91,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 159,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 8 Start: Iyashi rolls 3 OP and Aegis rolls 10."
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 198,
+                "Position": {
+                    "X": 91,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 158,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Aegis strikes Iyashi's torso with Pistol (Roll 18 (22)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 198,
+                "Position": {
+                    "X": 91,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 157,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Aegis strikes Iyashi's torso with Pistol (Roll 18 (22)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 198,
+                "Position": {
+                    "X": 91,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 156,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Aegis strikes Iyashi's limbs with Pistol (Roll 10 (14)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 8,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 97,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 156,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 8, Turn 2: Iyashi advances from (91,41) to (97,41) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 9,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 198,
+                "Position": {
+                    "X": 97,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 156,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 9 Start: Iyashi rolls 9 OP and Aegis rolls 7."
+        },
+        {
+            "Round": 9,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 100,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 156,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 9, Turn 1: Iyashi advances from (97,41) to (100,41) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 9,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 100,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 155,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 9, Turn 1: Aegis attacks Iyashi's torso using Pistol (Roll 9 (13) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 4, Stamina left: 155"
+        },
+        {
+            "Round": 9,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 100,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 154,
+                "Position": {
+                    "X": 100,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 9, Turn 2: Aegis strikes Iyashi's torso with Acid Gun (Roll 12 (16)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 9,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 100,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 154,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 9, Turn 2: Aegis kites from (100, 40) to (100, 36) in 4 step(s). OP left: 0"
+        },
+        {
+            "Round": 10,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 198,
+                "Position": {
+                    "X": 100,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 154,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 10 Start: Iyashi rolls 4 OP and Aegis rolls 8."
+        },
+        {
+            "Round": 10,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 198,
+                "Position": {
+                    "X": 100,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 153,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 10, Turn 1: Aegis attacks Iyashi's limbs using Pistol (Roll 2 (6) vs DEX AC 14 and (2) vs CON AC 14) but misses. OP left: 5, Stamina left: 153"
+        },
+        {
+            "Round": 10,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 198,
+                "Position": {
+                    "X": 100,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 152,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 10, Turn 1: Aegis strikes Iyashi's torso with Pistol (Roll 10 (14)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 10,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 100,
+                    "Y": 37
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 152,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 10, Turn 2: Iyashi advances from (100,41) to (100,37) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 11,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 13,
+                "Stamina": 198,
+                "Position": {
+                    "X": 100,
+                    "Y": 37
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 152,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 11 Start: Iyashi rolls 13 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 11,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 195,
+                "Position": {
+                    "X": 100,
+                    "Y": 37
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 152,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 1: Iyashi attacks Aegis's torso using Rapier (Roll 10 (6) vs DEX AC 14 and (12) vs CON AC 14) but misses. OP left: 10, Stamina left: 195"
+        },
+        {
+            "Round": 11,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 192,
+                "Position": {
+                    "X": 100,
+                    "Y": 37
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 152,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 1: Iyashi attacks Aegis's limbs using Rapier (Roll 11 (7) vs DEX AC 14 and (13) vs CON AC 14) but misses. OP left: 7, Stamina left: 192"
+        },
+        {
+            "Round": 11,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 189,
+                "Position": {
+                    "X": 100,
+                    "Y": 37
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 152,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 1: Iyashi attacks Aegis's limbs using Rapier (Roll 13 (9) vs DEX AC 14 and (15) vs CON AC 14) but misses. OP left: 4, Stamina left: 189"
+        },
+        {
+            "Round": 11,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 37
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 152,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 1: Iyashi attacks Aegis's head using Rapier (Roll 9 (5) vs DEX AC 20 and (11) vs CON AC 20) but misses. OP left: 1, Stamina left: 186"
+        },
+        {
+            "Round": 11,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 37
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 151,
+                "Position": {
+                    "X": 100,
+                    "Y": 36
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 2: Aegis attacks Iyashi's torso using Punch (Roll 9 (13) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 1, Stamina left: 151"
+        },
+        {
+            "Round": 11,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 37
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 151,
+                "Position": {
+                    "X": 100,
+                    "Y": 32
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 11, Turn 2: Aegis kites from (100, 36) to (100, 32) in 4 step(s). OP left: 0"
+        },
+        {
+            "Round": 11,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 33
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 151,
+                "Position": {
+                    "X": 100,
+                    "Y": 32
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 11, Turn 3: Iyashi advances from (100,37) to (100,33) in 4 step(s). OP left: 0"
+        },
+        {
+            "Round": 12,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 33
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 151,
+                "Position": {
+                    "X": 100,
+                    "Y": 32
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 12 Start: Iyashi rolls 5 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 12,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 33
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 151,
+                "Position": {
+                    "X": 100,
+                    "Y": 18
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 12, Turn 1: Aegis kites from (100, 32) to (100, 18) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 12,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 25
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 151,
+                "Position": {
+                    "X": 100,
+                    "Y": 18
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 12, Turn 2: Iyashi advances from (100,33) to (100,25) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 13,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 12,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 25
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 151,
+                "Position": {
+                    "X": 100,
+                    "Y": 18
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 13 Start: Iyashi rolls 12 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 13,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 19
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 151,
+                "Position": {
+                    "X": 100,
+                    "Y": 18
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 13, Turn 1: Iyashi advances from (100,25) to (100,19) in 15 step(s). OP left: 0"
+        },
+        {
+            "Round": 13,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 19
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 150,
+                "Position": {
+                    "X": 100,
+                    "Y": 18
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 13, Turn 1: Aegis strikes Iyashi's limbs with Pistol (Roll 18 (22)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 14,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 19
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 150,
+                "Position": {
+                    "X": 100,
+                    "Y": 18
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 14 Start: Iyashi rolls 2 OP and Aegis rolls 10."
+        },
+        {
+            "Round": 14,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 19
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 150,
+                "Position": {
+                    "X": 100,
+                    "Y": 5
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 14, Turn 1: Aegis kites from (100, 18) to (100, 5) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 14,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 14
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 150,
+                "Position": {
+                    "X": 100,
+                    "Y": 5
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 14, Turn 2: Iyashi advances from (100,19) to (100,14) in 5 step(s). OP left: 0"
+        },
+        {
+            "Round": 15,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 14
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 150,
+                "Position": {
+                    "X": 100,
+                    "Y": 5
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 15 Start: Iyashi rolls 6 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 15,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 6
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 150,
+                "Position": {
+                    "X": 100,
+                    "Y": 5
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 15, Turn 1: Iyashi advances from (100,14) to (100,6) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 15,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 6
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 149,
+                "Position": {
+                    "X": 100,
+                    "Y": 5
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 15, Turn 1: Aegis attacks Iyashi's head using Pistol (Roll 6 (10) vs DEX AC 20 and (6) vs CON AC 20) but misses. OP left: 0, Stamina left: 149"
+        },
+        {
+            "Round": 16,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 186,
+                "Position": {
+                    "X": 100,
+                    "Y": 6
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 149,
+                "Position": {
+                    "X": 100,
+                    "Y": 5
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 16 Start: Iyashi rolls 10 OP and Aegis rolls 6."
+        },
+        {
+            "Round": 16,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 183,
+                "Position": {
+                    "X": 100,
+                    "Y": 6
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 6,
+                "Stamina": 149,
+                "Position": {
+                    "X": 100,
+                    "Y": 5
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 16, Turn 1: Iyashi hits Aegis in the limbs with Rapier (Roll 19 (15) vs DEX AC 14 and (21) vs CON AC 14) for 19 piercing damage. HP: 60 -> 41, OP left: 7, Stamina left: 183"
+        },
+        {
+            "Round": 16,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 180,
+                "Position": {
+                    "X": 100,
+                    "Y": 6
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 6,
+                "Stamina": 149,
+                "Position": {
+                    "X": 100,
+                    "Y": 5
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 16, Turn 1: Iyashi attacks Aegis's limbs using Rapier (Roll 6 (2) vs DEX AC 14 and (8) vs CON AC 14) but misses. OP left: 4, Stamina left: 180"
+        },
+        {
+            "Round": 16,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 180,
+                "Position": {
+                    "X": 100,
+                    "Y": 6
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 3,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 5
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 16, Turn 2: Aegis attacks Iyashi's limbs using Acid Gun (Roll 9 (13) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 3, Stamina left: 148"
+        },
+        {
+            "Round": 16,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 180,
+                "Position": {
+                    "X": 100,
+                    "Y": 6
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 16, Turn 2: Aegis kites from (100, 5) to (100, 0) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 16,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 16, Turn 3: Iyashi advances from (100,6) to (100,1) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 17,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 5,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 17 Start: Iyashi rolls 3 OP and Aegis rolls 5."
+        },
+        {
+            "Round": 17,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 17, Turn 1: Aegis kites from (100, 0) to (100, 0) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 17,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 179,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 17, Turn 2: Iyashi attacks Aegis's torso using Punch (Roll 9 (5) vs DEX AC 14 and (11) vs CON AC 14) but misses. OP left: 0, Stamina left: 179"
+        },
+        {
+            "Round": 18,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 179,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 9,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 18 Start: Iyashi rolls 4 OP and Aegis rolls 9."
+        },
+        {
+            "Round": 18,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 179,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 18, Turn 1: Aegis kites from (100, 0) to (100, 0) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 18,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 176,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 18, Turn 2: Iyashi attacks Aegis's limbs using Rapier (Roll 10 (6) vs DEX AC 14 and (12) vs CON AC 14) but misses. OP left: 1, Stamina left: 176"
+        },
+        {
+            "Round": 19,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 176,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 6,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 19 Start: Iyashi rolls 4 OP and Aegis rolls 6."
+        },
+        {
+            "Round": 19,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 176,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 19, Turn 1: Aegis kites from (100, 0) to (100, 0) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 19,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 173,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 19, Turn 2: Iyashi attacks Aegis's torso using Rapier (Roll 17 (13) vs DEX AC 14 and (19) vs CON AC 14) but misses. OP left: 1, Stamina left: 173"
+        },
+        {
+            "Round": 20,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 173,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 13,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 20 Start: Iyashi rolls 8 OP and Aegis rolls 13."
+        },
+        {
+            "Round": 20,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 173,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 20, Turn 1: Aegis kites from (100, 0) to (100, 0) in 16 step(s). OP left: 0"
+        },
+        {
+            "Round": 20,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 172,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 20, Turn 2: Iyashi attacks Aegis's limbs using Punch (Roll 5 (1) vs DEX AC 16 and (7) vs CON AC 16) but misses. OP left: 5, Stamina left: 172"
+        },
+        {
+            "Round": 20,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 169,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 20, Turn 2: Iyashi attacks Aegis's torso using Rapier (Roll 15 (11) vs DEX AC 14 and (17) vs CON AC 14) but misses. OP left: 2, Stamina left: 169"
+        },
+        {
+            "Round": 21,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 169,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 5,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 21 Start: Iyashi rolls 4 OP and Aegis rolls 5."
+        },
+        {
+            "Round": 21,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 169,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 21, Turn 1: Aegis kites from (100, 0) to (100, 0) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 21,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 168,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 21, Turn 2: Iyashi attacks Aegis's torso using Punch (Roll 7 (3) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 1, Stamina left: 168"
+        },
+        {
+            "Round": 22,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 168,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 10,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 22 Start: Iyashi rolls 10 OP and Aegis rolls 10."
+        },
+        {
+            "Round": 22,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 165,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 10,
+                "Stamina": 148,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 22, Turn 1: Iyashi attacks Aegis's torso using Rapier (Roll 17 (13) vs DEX AC 14 and (19) vs CON AC 14) but misses. OP left: 7, Stamina left: 165"
+        },
+        {
+            "Round": 22,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 165,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 7,
+                "Stamina": 147,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 22, Turn 2: Aegis strikes Iyashi's torso with Pistol (Roll 17 (21)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 22,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 165,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 147,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 22, Turn 2: Aegis kites from (100, 0) to (100, 0) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 22,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 164,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 147,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 22, Turn 3: Iyashi attacks Aegis's limbs using Punch (Roll 14 (10) vs DEX AC 16 and (16) vs CON AC 16) but misses. OP left: 4, Stamina left: 164"
+        },
+        {
+            "Round": 22,
+            "Turn": 3,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 161,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 147,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 22, Turn 3: Iyashi attacks Aegis's torso using Rapier (Roll 5 (1) vs DEX AC 14 and (7) vs CON AC 14) but misses. OP left: 1, Stamina left: 161"
+        },
+        {
+            "Round": 23,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 161,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 19,
+                "Stamina": 147,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 23 Start: Iyashi rolls 3 OP and Aegis rolls 19."
+        },
+        {
+            "Round": 23,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 161,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 16,
+                "Stamina": 146,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 23, Turn 1: Aegis attacks Iyashi's head using Punch (Roll 2 (6) vs DEX AC 20 and (2) vs CON AC 20) but misses. OP left: 16, Stamina left: 146"
+        },
+        {
+            "Round": 23,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 161,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 41,
+                "OP": 0,
+                "Stamina": 146,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 23, Turn 1: Aegis kites from (100, 0) to (100, 0) in 19 step(s). OP left: 0"
+        },
+        {
+            "Round": 23,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 158,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 146,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 23, Turn 2: Iyashi hits Aegis in the limbs with Rapier (Roll 19 (15) vs DEX AC 14 and (21) vs CON AC 14) for 19 piercing damage. HP: 41 -> 22, OP left: 0, Stamina left: 158"
+        },
+        {
+            "Round": 24,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 18,
+                "Stamina": 158,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 16,
+                "Stamina": 146,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 24 Start: Iyashi rolls 18 OP and Aegis rolls 16."
+        },
+        {
+            "Round": 24,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 157,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 16,
+                "Stamina": 146,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 24, Turn 1: Iyashi attacks Aegis's limbs using Punch (Roll 18 (14) vs DEX AC 16 and (20) vs CON AC 16) but misses. OP left: 15, Stamina left: 157"
+        },
+        {
+            "Round": 24,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 157,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 13,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 24, Turn 2: Aegis attacks Iyashi's limbs using Punch (Roll 4 (8) vs DEX AC 16 and (4) vs CON AC 16) but misses. OP left: 13, Stamina left: 145"
+        },
+        {
+            "Round": 24,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 157,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 24, Turn 2: Aegis kites from (100, 0) to (100, 0) in 16 step(s). OP left: 0"
+        },
+        {
+            "Round": 24,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 12,
+                "Stamina": 156,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 24, Turn 3: Iyashi attacks Aegis's torso using Punch (Roll 17 (13) vs DEX AC 14 and (19) vs CON AC 14) but misses. OP left: 12, Stamina left: 156"
+        },
+        {
+            "Round": 24,
+            "Turn": 3,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 153,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 24, Turn 3: Iyashi attacks Aegis's limbs using Rapier (Roll 11 (7) vs DEX AC 14 and (13) vs CON AC 14) but misses. OP left: 9, Stamina left: 153"
+        },
+        {
+            "Round": 24,
+            "Turn": 3,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 150,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 24, Turn 3: Iyashi attacks Aegis's torso using Rapier (Roll 4 (0) vs DEX AC 14 and (6) vs CON AC 14) but misses. OP left: 6, Stamina left: 150"
+        },
+        {
+            "Round": 24,
+            "Turn": 3,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 149,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 24, Turn 3: Iyashi attacks Aegis's limbs using Punch (Roll 10 (6) vs DEX AC 16 and (12) vs CON AC 16) but misses. OP left: 3, Stamina left: 149"
+        },
+        {
+            "Round": 24,
+            "Turn": 3,
+            "Action": 5,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 146,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 24, Turn 3: Iyashi attacks Aegis's torso using Rapier (Roll 12 (8) vs DEX AC 14 and (14) vs CON AC 14) but misses. OP left: 0, Stamina left: 146"
+        },
+        {
+            "Round": 25,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 146,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 7,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 25 Start: Iyashi rolls 2 OP and Aegis rolls 7."
+        },
+        {
+            "Round": 25,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 146,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 25, Turn 1: Aegis kites from (100, 0) to (100, 0) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 26,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 146,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 26 Start: Iyashi rolls 10 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 26,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 26, Turn 1: Iyashi attacks Aegis's limbs using Punch (Roll 19 (15) vs DEX AC 16 and (21) vs CON AC 16) but misses. OP left: 7, Stamina left: 145"
+        },
+        {
+            "Round": 26,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 144,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 26, Turn 1: Iyashi attacks Aegis's torso using Punch (Roll 6 (2) vs DEX AC 14 and (8) vs CON AC 14) but misses. OP left: 4, Stamina left: 144"
+        },
+        {
+            "Round": 26,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 141,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 26, Turn 1: Iyashi attacks Aegis's limbs using Rapier (Roll 9 (5) vs DEX AC 14 and (11) vs CON AC 14) but misses. OP left: 1, Stamina left: 141"
+        },
+        {
+            "Round": 26,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 141,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 144,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 26, Turn 2: Aegis attacks Iyashi's head using Acid Gun (Roll 15 (19) vs DEX AC 20 and (15) vs CON AC 20) but misses. OP left: 0, Stamina left: 144"
+        },
+        {
+            "Round": 27,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 141,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 4,
+                "Stamina": 144,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 27 Start: Iyashi rolls 4 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 27,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 140,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 4,
+                "Stamina": 144,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 27, Turn 1: Iyashi attacks Aegis's limbs using Punch (Roll 12 (8) vs DEX AC 16 and (14) vs CON AC 16) but misses. OP left: 1, Stamina left: 140"
+        },
+        {
+            "Round": 27,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 140,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 144,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 27, Turn 2: Aegis kites from (100, 0) to (100, 0) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 28,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 140,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 6,
+                "Stamina": 144,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 28 Start: Iyashi rolls 2 OP and Aegis rolls 6."
+        },
+        {
+            "Round": 28,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 140,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 3,
+                "Stamina": 143,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 28, Turn 1: Aegis attacks Iyashi's limbs using Pistol (Roll 2 (6) vs DEX AC 14 and (2) vs CON AC 14) but misses. OP left: 3, Stamina left: 143"
+        },
+        {
+            "Round": 28,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 140,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 143,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 28, Turn 1: Aegis kites from (100, 0) to (100, 0) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 29,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 140,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 7,
+                "Stamina": 143,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 29 Start: Iyashi rolls 7 OP and Aegis rolls 7."
+        },
+        {
+            "Round": 29,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 137,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 7,
+                "Stamina": 143,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 29, Turn 1: Iyashi attacks Aegis's torso using Rapier (Roll 5 (1) vs DEX AC 14 and (7) vs CON AC 14) but misses. OP left: 4, Stamina left: 137"
+        },
+        {
+            "Round": 29,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 137,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 143,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 29, Turn 2: Aegis kites from (100, 0) to (100, 0) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 29,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 134,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 143,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 29, Turn 3: Iyashi attacks Aegis's torso using Rapier (Roll 3 (-1) vs DEX AC 14 and (5) vs CON AC 14) but misses. OP left: 1, Stamina left: 134"
+        },
+        {
+            "Round": 30,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 134,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 9,
+                "Stamina": 143,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 30 Start: Iyashi rolls 8 OP and Aegis rolls 9."
+        },
+        {
+            "Round": 30,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 134,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 6,
+                "Stamina": 142,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 30, Turn 1: Aegis strikes Iyashi's limbs with Pistol (Roll 17 (21)), but CANNOT DEAL DAMAGE to Iyashi"
+        },
+        {
+            "Round": 30,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 134,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 30, Turn 1: Aegis kites from (100, 0) to (100, 0) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 30,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 131,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 30, Turn 2: Iyashi attacks Aegis's limbs using Rapier (Roll 9 (5) vs DEX AC 14 and (11) vs CON AC 14) but misses. OP left: 5, Stamina left: 131"
+        },
+        {
+            "Round": 30,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 128,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 30, Turn 2: Iyashi attacks Aegis's head using Rapier (Roll 7 (3) vs DEX AC 20 and (9) vs CON AC 20) but misses. OP left: 2, Stamina left: 128"
+        },
+        {
+            "Round": 31,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 128,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 11,
+                "Stamina": 142,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 31 Start: Iyashi rolls 7 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 31,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 128,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 31, Turn 1: Aegis kites from (100, 0) to (100, 0) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 31,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 125,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 31, Turn 2: Iyashi attacks Aegis's torso using Rapier (Roll 7 (3) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 4, Stamina left: 125"
+        },
+        {
+            "Round": 31,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 122,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 31, Turn 2: Iyashi attacks Aegis's torso using Rapier (Roll 14 (10) vs DEX AC 14 and (16) vs CON AC 14) but misses. OP left: 1, Stamina left: 122"
+        },
+        {
+            "Round": 32,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 122,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 22,
+                "OP": 3,
+                "Stamina": 142,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 32 Start: Iyashi rolls 4 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 32,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 119,
+                "Position": {
+                    "X": 100,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": -16,
+                "OP": 3,
+                "Stamina": 142,
+                "Position": {
+                    "X": 100,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 32, Turn 1: Iyashi hits Aegis in the limbs with Rapier (Roll 20 (16) vs DEX AC 14 and (22) vs CON AC 14) for 38 piercing damage. HP: 22 -> -16, OP left: 1, Stamina left: 119"
+        }
+    ]
+}

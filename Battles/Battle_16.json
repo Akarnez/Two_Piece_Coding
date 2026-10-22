@@ -1,0 +1,822 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 180
+        },
+        "C_2": {
+            "Name": "Iyashi",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 198
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 198,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Strov rolls 4 OP and Iyashi rolls 3."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 52,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 198,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Strov advances from (45,50) to (52,50) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 52,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 79,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Iyashi advances from (85,40) to (79,40) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 20,
+                "Stamina": 180,
+                "Position": {
+                    "X": 52,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 198,
+                "Position": {
+                    "X": 79,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Strov rolls 20 OP and Iyashi rolls 5."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 72,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 198,
+                "Position": {
+                    "X": 79,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Strov advances from (52,50) to (72,47) in 23 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 72,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 198,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Iyashi advances from (79,40) to (75,44) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 180,
+                "Position": {
+                    "X": 72,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 198,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Strov rolls 7 OP and Iyashi rolls 6."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 198,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Strov advances from (72,47) to (75,45) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 197,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Iyashi attacks Strov's torso using Punch (Roll 11 (13) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 3, Stamina left: 197"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 194,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Iyashi hits Strov in the torso with Rapier (Roll 16 (18) vs DEX AC 14 and (14) vs CON AC 14) for 15 piercing damage. HP: 60 -> 45, OP left: 0, Stamina left: 194"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 2,
+                "Stamina": 180,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 194,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Strov rolls 2 OP and Iyashi rolls 3."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 2,
+                "Stamina": 180,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 191,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Iyashi hits Strov's torso using Rapier (Roll 13 (15) vs DEX AC 14 and (11) vs CON AC 14) but does NO DAMAGE. OP left: 0, Stamina left: 191"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 12,
+                "Stamina": 180,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 191,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Strov rolls 12 OP and Iyashi rolls 4."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 9,
+                "Stamina": 178,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 191,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Strov attacks Iyashi's limbs using Punch (Roll 15 (13) vs DEX AC 16 and (17) vs CON AC 16) but misses. OP left: 9, Stamina left: 178"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 6,
+                "Stamina": 174,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 4,
+                "Stamina": 191,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Strov hits Iyashi in the limbs with Greatsword Slash (Roll 19 (17) vs DEX AC 14 and (21) vs CON AC 14) for 16 slashing damage. HP: 60 -> 44, OP left: 6, Stamina left: 174"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 45,
+                "OP": 3,
+                "Stamina": 170,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 4,
+                "Stamina": 191,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Strov attacks Iyashi's torso using Greatsword Slash (Roll 10 (8) vs DEX AC 16 and (12) vs CON AC 16) but misses. OP left: 3, Stamina left: 170"
+        },
+        {
+            "Round": 5,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 3,
+                "Stamina": 170,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 1,
+                "Stamina": 188,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 2: Iyashi attacks Strov's torso using Rapier (Roll 5 (7) vs DEX AC 14 and (3) vs CON AC 14) but misses. OP left: 1, Stamina left: 188"
+        },
+        {
+            "Round": 5,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 166,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 1,
+                "Stamina": 188,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 3: Strov attacks Iyashi's head using Greatsword Stab (Roll 3 (1) vs DEX AC 20 and (5) vs CON AC 20) but misses. OP left: 0, Stamina left: 166"
+        },
+        {
+            "Round": 6,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 16,
+                "Stamina": 166,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 9,
+                "Stamina": 188,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 6 Start: Strov rolls 16 OP and Iyashi rolls 9."
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 13,
+                "Stamina": 162,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 9,
+                "Stamina": 188,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Strov attacks Iyashi's limbs using Greatsword Stab (Roll 7 (5) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 13, Stamina left: 162"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 10,
+                "Stamina": 158,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 9,
+                "Stamina": 188,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Strov attacks Iyashi's torso using Greatsword Slash (Roll 17 (15) vs DEX AC 16 and (19) vs CON AC 16) but misses. OP left: 10, Stamina left: 158"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 154,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 9,
+                "Stamina": 188,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Strov attacks Iyashi's torso using Greatsword Slash (Roll 14 (12) vs DEX AC 16 and (16) vs CON AC 16) but misses. OP left: 7, Stamina left: 154"
+        },
+        {
+            "Round": 6,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 154,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 6,
+                "Stamina": 185,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 2: Iyashi attacks Strov's head using Rapier (Roll 12 (14) vs DEX AC 20 and (10) vs CON AC 20) but misses. OP left: 6, Stamina left: 185"
+        },
+        {
+            "Round": 6,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 150,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 6,
+                "Stamina": 185,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 3: Strov attacks Iyashi's torso using Greatsword Stab (Roll 15 (13) vs DEX AC 14 and (17) vs CON AC 14) but misses. OP left: 4, Stamina left: 150"
+        },
+        {
+            "Round": 6,
+            "Turn": 4,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 150,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 3,
+                "Stamina": 182,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 4: Iyashi attacks Strov's torso using Rapier (Roll 6 (8) vs DEX AC 14 and (4) vs CON AC 14) but misses. OP left: 3, Stamina left: 182"
+        },
+        {
+            "Round": 6,
+            "Turn": 5,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 1,
+                "Stamina": 146,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 3,
+                "Stamina": 182,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 5: Strov attacks Iyashi's torso using Greatsword Slash (Roll 13 (11) vs DEX AC 16 and (15) vs CON AC 16) but misses. OP left: 1, Stamina left: 146"
+        },
+        {
+            "Round": 6,
+            "Turn": 6,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 1,
+                "Stamina": 146,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 0,
+                "Stamina": 181,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 6: Iyashi attacks Strov's limbs using Punch (Roll 5 (7) vs DEX AC 16 and (3) vs CON AC 16) but misses. OP left: 0, Stamina left: 181"
+        },
+        {
+            "Round": 7,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 21,
+                "Stamina": 146,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 44,
+                "OP": 7,
+                "Stamina": 181,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 7 Start: Strov rolls 21 OP and Iyashi rolls 7."
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 18,
+                "Stamina": 142,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 25,
+                "OP": 7,
+                "Stamina": 181,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 1: Strov hits Iyashi in the limbs with Greatsword Stab (Roll 19 (17) vs DEX AC 14 and (21) vs CON AC 14) for 19 piercing damage. HP: 44 -> 25, OP left: 18, Stamina left: 142"
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 45,
+                "OP": 15,
+                "Stamina": 138,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 25,
+                "OP": 7,
+                "Stamina": 181,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 1: Strov attacks Iyashi's limbs using Greatsword Slash (Roll 10 (8) vs DEX AC 14 and (12) vs CON AC 14) but misses. OP left: 15, Stamina left: 138"
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 45,
+                "OP": 12,
+                "Stamina": 136,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 11,
+                "OP": 7,
+                "Stamina": 181,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 1: Strov hits Iyashi in the torso with Punch (Roll 18 (16) vs DEX AC 14 and (20) vs CON AC 14) for 14 bludgeoning damage. HP: 25 -> 11, OP left: 12, Stamina left: 136"
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 45,
+                "OP": 9,
+                "Stamina": 132,
+                "Position": {
+                    "X": 75,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": -21,
+                "OP": 7,
+                "Stamina": 181,
+                "Position": {
+                    "X": 75,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 1: Strov hits Iyashi in the limbs with Greatsword Slash (Roll 20 (18) vs DEX AC 14 and (22) vs CON AC 14) for 32 slashing damage. HP: 11 -> -21, OP left: 9, Stamina left: 132"
+        }
+    ]
+}

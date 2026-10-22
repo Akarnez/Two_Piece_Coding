@@ -1,0 +1,847 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Rhana",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 174
+        },
+        "C_2": {
+            "Name": "Tsukiko",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 162
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 174,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 19,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Rhana rolls 9 OP and Tsukiko rolls 19."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 174,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Tsukiko advances from (85,40) to (63,40) in 22 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 48
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Rhana advances from (45,50) to (55,48) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 48
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Rhana rolls 8 OP and Tsukiko rolls 4."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Rhana advances from (55,48) to (61,43) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Tsukiko advances from (63,40) to (61,42) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 174,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 21,
+                "Stamina": 162,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Rhana rolls 10 OP and Tsukiko rolls 21."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 48,
+                "OP": 10,
+                "Stamina": 174,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 18,
+                "Stamina": 159,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Tsukiko hits Rhana in the torso with Shortsword Slash (Roll 19 (23) vs DEX AC 16 and (17) vs CON AC 16) for 12 slashing damage. HP: 60 -> 48, OP left: 18, Stamina left: 159"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 48,
+                "OP": 10,
+                "Stamina": 174,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 157,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Tsukiko attacks Rhana's torso using Dagger (Roll 6 (10) vs DEX AC 14 and (4) vs CON AC 14) but misses. OP left: 15, Stamina left: 157"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 48,
+                "OP": 10,
+                "Stamina": 174,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 12,
+                "Stamina": 155,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Tsukiko attacks Rhana's torso using Dagger (Roll 7 (11) vs DEX AC 14 and (5) vs CON AC 14) but misses. OP left: 12, Stamina left: 155"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 33,
+                "OP": 10,
+                "Stamina": 174,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 152,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Tsukiko hits Rhana in the torso with Shortsword Stab (Roll 18 (22) vs DEX AC 14 and (16) vs CON AC 14) for 15 piercing damage. HP: 48 -> 33, OP left: 9, Stamina left: 152"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 33,
+                "OP": 7,
+                "Stamina": 173,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 152,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Rhana attacks Tsukiko's limbs using Punch (Roll 5 (1) vs DEX AC 16 and (5) vs CON AC 16) but misses. OP left: 7, Stamina left: 173"
+        },
+        {
+            "Round": 3,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 7,
+                "Stamina": 173,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 149,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 3: Tsukiko hits Rhana in the limbs with Shortsword Stab (Roll 19 (23) vs DEX AC 14 and (17) vs CON AC 14) for 15 piercing damage. HP: 33 -> 18, OP left: 6, Stamina left: 149"
+        },
+        {
+            "Round": 3,
+            "Turn": 4,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 4,
+                "Stamina": 171,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 149,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 4: Rhana attacks Tsukiko's torso using Bite (Roll 14 (10) vs DEX AC 14 and (14) vs CON AC 14) but misses. OP left: 4, Stamina left: 171"
+        },
+        {
+            "Round": 3,
+            "Turn": 5,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 4,
+                "Stamina": 171,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 147,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 5: Tsukiko attacks Rhana's limbs using Dagger Sneak Attack (Roll 7 (11) vs DEX AC 14 and (5) vs CON AC 14) but misses. OP left: 3, Stamina left: 147"
+        },
+        {
+            "Round": 3,
+            "Turn": 6,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 1,
+                "Stamina": 169,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 147,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 6: Rhana attacks Tsukiko's torso using Bite (Roll 17 (13) vs DEX AC 14 and (17) vs CON AC 14) but misses. OP left: 1, Stamina left: 169"
+        },
+        {
+            "Round": 3,
+            "Turn": 7,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 1,
+                "Stamina": 169,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 144,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 7: Tsukiko attacks Rhana's limbs using Shortsword Stab (Roll 2 (6) vs DEX AC 14 and (0) vs CON AC 14) but misses. OP left: 0, Stamina left: 144"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 18,
+                "OP": 16,
+                "Stamina": 169,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 144,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Rhana rolls 16 OP and Tsukiko rolls 6."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 13,
+                "Stamina": 167,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 144,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Rhana attacks Tsukiko's torso using Bite (Roll 8 (4) vs DEX AC 14 and (8) vs CON AC 14) but misses. OP left: 13, Stamina left: 167"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 18,
+                "OP": 10,
+                "Stamina": 166,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 144,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Rhana attacks Tsukiko's torso using Punch (Roll 13 (9) vs DEX AC 14 and (13) vs CON AC 14) but misses. OP left: 10, Stamina left: 166"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 18,
+                "OP": 7,
+                "Stamina": 164,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 144,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Rhana attacks Tsukiko's torso using Bite (Roll 3 (-1) vs DEX AC 14 and (3) vs CON AC 14) but misses. OP left: 7, Stamina left: 164"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 18,
+                "OP": 4,
+                "Stamina": 162,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 144,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Rhana attacks Tsukiko's limbs using Bite (Roll 12 (8) vs DEX AC 14 and (12) vs CON AC 14) but misses. OP left: 4, Stamina left: 162"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 4,
+                "Stamina": 162,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 141,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 2: Tsukiko hits Rhana's limbs using Shortsword Slash (Roll 13 (17) vs DEX AC 14 and (11) vs CON AC 14) but does NO DAMAGE. OP left: 3, Stamina left: 141"
+        },
+        {
+            "Round": 4,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 1,
+                "Stamina": 160,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 141,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 3: Rhana attacks Tsukiko's torso using Bite (Roll 6 (2) vs DEX AC 14 and (6) vs CON AC 14) but misses. OP left: 1, Stamina left: 160"
+        },
+        {
+            "Round": 4,
+            "Turn": 4,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 1,
+                "Stamina": 160,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 138,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 4: Tsukiko hits Rhana's torso using Shortsword Slash (Roll 14 (18) vs DEX AC 16 and (12) vs CON AC 16) but does NO DAMAGE. OP left: 0, Stamina left: 138"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 18,
+                "OP": 6,
+                "Stamina": 160,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 138,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Rhana rolls 6 OP and Tsukiko rolls 10."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 6,
+                "Stamina": 160,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 135,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Tsukiko attacks Rhana's torso using Shortsword Slash (Roll 11 (15) vs DEX AC 16 and (9) vs CON AC 16) but misses. OP left: 7, Stamina left: 135"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 18,
+                "OP": 6,
+                "Stamina": 160,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 132,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Tsukiko hits Rhana's limbs using Shortsword Slash (Roll 10 (14) vs DEX AC 14 and (8) vs CON AC 14) but does NO DAMAGE. OP left: 4, Stamina left: 132"
+        },
+        {
+            "Round": 5,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 3,
+                "Stamina": 158,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 132,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 2: Rhana attacks Tsukiko's head using Bite (Roll 15 (11) vs DEX AC 20 and (15) vs CON AC 20) but misses. OP left: 3, Stamina left: 158"
+        },
+        {
+            "Round": 5,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 3,
+                "Stamina": 158,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 129,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 3: Tsukiko attacks Rhana's torso using Shortsword Slash (Roll 9 (13) vs DEX AC 16 and (7) vs CON AC 16) but misses. OP left: 1, Stamina left: 129"
+        },
+        {
+            "Round": 5,
+            "Turn": 4,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 0,
+                "Stamina": 157,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 129,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 4: Rhana attacks Tsukiko's torso using Punch (Roll 8 (4) vs DEX AC 14 and (8) vs CON AC 14) but misses. OP left: 0, Stamina left: 157"
+        },
+        {
+            "Round": 6,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 18,
+                "OP": 2,
+                "Stamina": 157,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 22,
+                "Stamina": 129,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 6 Start: Rhana rolls 2 OP and Tsukiko rolls 22."
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": -12,
+                "OP": 2,
+                "Stamina": 157,
+                "Position": {
+                    "X": 61,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 19,
+                "Stamina": 127,
+                "Position": {
+                    "X": 61,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Tsukiko hits Rhana in the limbs with Dagger Sneak Attack (Roll 20 (24) vs DEX AC 14 and (18) vs CON AC 14) for 30 piercing damage. HP: 18 -> -12, OP left: 19, Stamina left: 127"
+        }
+    ]
+}

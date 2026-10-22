@@ -1,0 +1,372 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Rhana (Water)",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 174
+        },
+        "C_2": {
+            "Name": "Tsukiko",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 162
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Rhana (Water) rolls 7 OP and Tsukiko rolls 6."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Rhana (Water) advances from (45,50) to (55,50) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 76,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Tsukiko advances from (85,40) to (76,40) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 162,
+                "Position": {
+                    "X": 76,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Rhana (Water) rolls 3 OP and Tsukiko rolls 9."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 174,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 64,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Tsukiko advances from (76,40) to (64,40) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 58,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 64,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Rhana (Water) advances from (55,50) to (58,47) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 174,
+                "Position": {
+                    "X": 58,
+                    "Y": 47
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 162,
+                "Position": {
+                    "X": 64,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Rhana (Water) rolls 11 OP and Tsukiko rolls 11."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 162,
+                "Position": {
+                    "X": 64,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Rhana (Water) advances from (58,47) to (64,41) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 159,
+                "Position": {
+                    "X": 64,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Tsukiko attacks Rhana (Water)'s torso using Shortsword Stab (Roll 7 (6) vs DEX AC 14 and (5) vs CON AC 14) but misses. OP left: 8, Stamina left: 159"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 157,
+                "Position": {
+                    "X": 64,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Tsukiko attacks Rhana (Water)'s head using Dagger (Roll 8 (7) vs DEX AC 20 and (6) vs CON AC 20) but misses. OP left: 5, Stamina left: 157"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 3,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 154,
+                "Position": {
+                    "X": 64,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Tsukiko hits Rhana (Water) in the limbs with Shortsword Stab (Roll 17 (16) vs DEX AC 14 and (15) vs CON AC 14) for 15 piercing damage. HP: 60 -> 45, OP left: 2, Stamina left: 154"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 154,
+                "Position": {
+                    "X": 64,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Rhana (Water) rolls 7 OP and Tsukiko rolls 8."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 151,
+                "Position": {
+                    "X": 64,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko attacks Rhana (Water)'s head using Shortsword Slash (Roll 10 (9) vs DEX AC 20 and (8) vs CON AC 20) but misses. OP left: 5, Stamina left: 151"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 4,
+                "Stamina": 173,
+                "Position": {
+                    "X": 64,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 5,
+                "Stamina": 151,
+                "Position": {
+                    "X": 64,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 2: Rhana (Water) strikes Tsukiko's torso with Punch (Roll 19 (20) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 525, Scrub Doriki: 576)."
+        }
+    ]
+}

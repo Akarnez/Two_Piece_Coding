@@ -1,0 +1,897 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 180
+        },
+        "C_2": {
+            "Name": "Tsukiko",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 162
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Strov rolls 8 OP and Tsukiko rolls 7."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 56,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Strov advances from (45,50) to (56,50) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 56,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 75,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Tsukiko advances from (85,40) to (75,40) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 17,
+                "Stamina": 180,
+                "Position": {
+                    "X": 56,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 162,
+                "Position": {
+                    "X": 75,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Strov rolls 17 OP and Tsukiko rolls 5."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 162,
+                "Position": {
+                    "X": 75,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Strov advances from (56,50) to (71,45) in 20 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Tsukiko advances from (75,40) to (71,44) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 162,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Strov rolls 3 OP and Tsukiko rolls 11."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 159,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Tsukiko AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 435) in the torso with Shortsword Stab, but does NO DAMAGE (Roll 14 (10) vs CON AC 14). OP left: 8, Stamina left: 159"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 157,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Tsukiko AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 435) in the torso with Dagger, but does NO DAMAGE (Roll 4 (0) vs CON AC 14). OP left: 5, Stamina left: 157"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 30,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 155,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Tsukiko AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 435) in the limbs with Dagger (Roll 20 (16) vs CON AC 14) for 30 piercing damage. HP: 60 -> 30, OP left: 2, Stamina left: 155"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 30,
+                "OP": 0,
+                "Stamina": 176,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 155,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 176"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 30,
+                "OP": 10,
+                "Stamina": 176,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 155,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Strov rolls 10 OP and Tsukiko rolls 4."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 30,
+                "OP": 7,
+                "Stamina": 172,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 155,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 7, Stamina left: 172"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 30,
+                "OP": 4,
+                "Stamina": 168,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 155,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 4, Stamina left: 168"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 30,
+                "OP": 1,
+                "Stamina": 164,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 155,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 1, Stamina left: 164"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 30,
+                "OP": 1,
+                "Stamina": 164,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 152,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 2: Tsukiko AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 435) in the torso with Shortsword Slash, but does NO DAMAGE (Roll 3 (-1) vs CON AC 16). OP left: 1, Stamina left: 152"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 30,
+                "OP": 15,
+                "Stamina": 164,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 152,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Strov rolls 15 OP and Tsukiko rolls 5."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 30,
+                "OP": 12,
+                "Stamina": 160,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 152,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 12, Stamina left: 160"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 30,
+                "OP": 9,
+                "Stamina": 156,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 152,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 9, Stamina left: 156"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 30,
+                "OP": 6,
+                "Stamina": 152,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 152,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 6, Stamina left: 152"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 30,
+                "OP": 3,
+                "Stamina": 148,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 152,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 148"
+        },
+        {
+            "Round": 5,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 3,
+                "Stamina": 148,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 149,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 2: Tsukiko AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 435) in the limbs with Shortsword Slash (Roll 19 (15) vs CON AC 14) for 12 slashing damage. HP: 30 -> 18, OP left: 2, Stamina left: 149"
+        },
+        {
+            "Round": 5,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 0,
+                "Stamina": 144,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 149,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 3: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 144"
+        },
+        {
+            "Round": 6,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 18,
+                "OP": 10,
+                "Stamina": 144,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 149,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 6 Start: Strov rolls 10 OP and Tsukiko rolls 7."
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 7,
+                "Stamina": 140,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 149,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 7, Stamina left: 140"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 18,
+                "OP": 4,
+                "Stamina": 136,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 149,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 4, Stamina left: 136"
+        },
+        {
+            "Round": 6,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 4,
+                "Stamina": 136,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 146,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 2: Tsukiko AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 435) in the torso with Shortsword Stab, but does NO DAMAGE (Roll 6 (2) vs CON AC 14). OP left: 4, Stamina left: 146"
+        },
+        {
+            "Round": 6,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 18,
+                "OP": 1,
+                "Stamina": 134,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 146,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 2: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 1, Stamina left: 134"
+        },
+        {
+            "Round": 6,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 1,
+                "Stamina": 134,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 143,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 3: Tsukiko AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 435) in the limbs with Shortsword Stab, but does NO DAMAGE (Roll 16 (12) vs CON AC 14). OP left: 1, Stamina left: 143"
+        },
+        {
+            "Round": 7,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 18,
+                "OP": 6,
+                "Stamina": 134,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 143,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 7 Start: Strov rolls 6 OP and Tsukiko rolls 4."
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 3,
+                "Stamina": 130,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 143,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 1: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 130"
+        },
+        {
+            "Round": 7,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 3,
+                "Stamina": 130,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 140,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 2: Tsukiko AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 435) in the limbs with Shortsword Slash, but does NO DAMAGE (Roll 6 (2) vs CON AC 14). OP left: 1, Stamina left: 140"
+        },
+        {
+            "Round": 7,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 18,
+                "OP": 0,
+                "Stamina": 126,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 140,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 3: Strov CANNOT HIT Tsukiko (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 126"
+        },
+        {
+            "Round": 8,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 18,
+                "OP": 4,
+                "Stamina": 126,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 140,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 8 Start: Strov rolls 4 OP and Tsukiko rolls 5."
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": -12,
+                "OP": 4,
+                "Stamina": 126,
+                "Position": {
+                    "X": 71,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 138,
+                "Position": {
+                    "X": 71,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Tsukiko AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 435) in the torso with Dagger Sneak Attack (Roll 20 (16) vs CON AC 14) for 30 piercing damage. HP: 18 -> -12, OP left: 2, Stamina left: 138"
+        }
+    ]
+}

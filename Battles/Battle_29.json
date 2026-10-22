@@ -1,0 +1,222 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Rocky",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 172
+        },
+        "C_2": {
+            "Name": "Rhana (Water)",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 174
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 172,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Rocky rolls 8 OP and Rhana (Water) rolls 9."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 172,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Rhana (Water) advances from (85,40) to (73,40) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 56,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Rocky advances from (45,50) to (56,50) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 19,
+                "Stamina": 172,
+                "Position": {
+                    "X": 56,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 14,
+                "Stamina": 174,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Rocky rolls 19 OP and Rhana (Water) rolls 14."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 71,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 14,
+                "Stamina": 174,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Rocky advances from (56,50) to (71,43) in 22 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 71,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 71,
+                    "Y": 42
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Rhana (Water) advances from (73,40) to (71,42) in 17 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 172,
+                "Position": {
+                    "X": 71,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 174,
+                "Position": {
+                    "X": 71,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Rocky rolls 6 OP and Rhana (Water) rolls 11."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 0,
+                "OP": 6,
+                "Stamina": 172,
+                "Position": {
+                    "X": 71,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 173,
+                "Position": {
+                    "X": 71,
+                    "Y": 42
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Rhana (Water) strikes Rocky's head with Punch (Roll 18 (20) vs DEX AC 20) and INSTANTLY KOs them! (Target CON: 570, Scrub Doriki: 576)."
+        }
+    ]
+}

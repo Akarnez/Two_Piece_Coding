@@ -1,0 +1,397 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 180
+        },
+        "C_2": {
+            "Name": "Rocky",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 172
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 172,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Strov rolls 6 OP and Rocky rolls 9."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Rocky advances from (85,40) to (73,40) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Strov advances from (45,50) to (54,50) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 180,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 73,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Strov rolls 2 OP and Rocky rolls 3."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 180,
+                "Position": {
+                    "X": 54,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 67,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Rocky advances from (73,40) to (67,40) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 58,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 67,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Strov advances from (54,50) to (58,49) in 5 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 20,
+                "Stamina": 180,
+                "Position": {
+                    "X": 58,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 172,
+                "Position": {
+                    "X": 67,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Strov rolls 20 OP and Rocky rolls 11."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 67,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 172,
+                "Position": {
+                    "X": 67,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Strov advances from (58,49) to (67,41) in 23 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 67,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 168,
+                "Position": {
+                    "X": 67,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Rocky attacks Strov's head using Dart (Roll 3 (7) vs DEX AC 20 and (3) vs CON AC 20) but misses. OP left: 8, Stamina left: 168"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 67,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 168,
+                "Position": {
+                    "X": 67,
+                    "Y": 29
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 2: Rocky kites from (67, 40) to (67, 29) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 180,
+                "Position": {
+                    "X": 67,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 168,
+                "Position": {
+                    "X": 67,
+                    "Y": 29
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Strov rolls 10 OP and Rocky rolls 3."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 67,
+                    "Y": 30
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 168,
+                "Position": {
+                    "X": 67,
+                    "Y": 29
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 1: Strov advances from (67,41) to (67,30) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 67,
+                    "Y": 30
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 164,
+                "Position": {
+                    "X": 67,
+                    "Y": 29
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Rocky hits Strov's torso using Dart (Roll 12 (16) vs DEX AC 14 and (12) vs CON AC 14) but does NO DAMAGE. OP left: 0, Stamina left: 164"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 67,
+                    "Y": 30
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 164,
+                "Position": {
+                    "X": 67,
+                    "Y": 29
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Strov rolls 6 OP and Rocky rolls 5."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 176,
+                "Position": {
+                    "X": 67,
+                    "Y": 30
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 5,
+                "Stamina": 164,
+                "Position": {
+                    "X": 67,
+                    "Y": 29
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Strov strikes Rocky's torso with Greatsword Slash (Roll 20 (16) vs DEX AC 16) and INSTANTLY KOs them! (Target CON: 570, Scrub Doriki: 608)."
+        }
+    ]
+}

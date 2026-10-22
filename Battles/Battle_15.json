@@ -1,0 +1,1272 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Rocky",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 172
+        },
+        "C_2": {
+            "Name": "Tsukiko",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 162
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 172,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Rocky rolls 10 OP and Tsukiko rolls 10."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 58,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Rocky advances from (45,50) to (58,50) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 58,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 72,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Tsukiko advances from (85,40) to (72,40) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 172,
+                "Position": {
+                    "X": 58,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 162,
+                "Position": {
+                    "X": 72,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Rocky rolls 7 OP and Tsukiko rolls 10."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 172,
+                "Position": {
+                    "X": 58,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 44
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Tsukiko advances from (72,40) to (63,44) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 63,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 44
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Rocky advances from (58,50) to (63,45) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 172,
+                "Position": {
+                    "X": 63,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Rocky rolls 4 OP and Tsukiko rolls 4."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 63,
+                    "Y": 52
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 44
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Rocky kites from (63, 45) to (63, 52) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 63,
+                    "Y": 52
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 51
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 2: Tsukiko advances from (63,44) to (63,51) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 172,
+                "Position": {
+                    "X": 63,
+                    "Y": 52
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 51
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Rocky rolls 9 OP and Tsukiko rolls 9."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 52
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 9,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 51
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Rocky hits Tsukiko in the limbs with Bite (Roll 19 (18) vs DEX AC 14 and (27) vs CON AC 14) for 39 piercing damage. HP: 60 -> 21, OP left: 6, Stamina left: 170"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 61
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 9,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 51
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 1: Rocky kites from (63, 52) to (63, 61) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 61
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 60
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 2: Tsukiko advances from (63,51) to (63,60) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 61
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 3,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 60
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Rocky rolls 8 OP and Tsukiko rolls 3."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 72
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 3,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 60
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 5, Turn 1: Rocky kites from (63, 61) to (63, 72) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 5,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 72
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 66
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 5, Turn 2: Tsukiko advances from (63,60) to (63,66) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 6,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 72
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 8,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 66
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 6 Start: Rocky rolls 8 OP and Tsukiko rolls 8."
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 67
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 8,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 66
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 6, Turn 1: Rocky advances from (63,72) to (63,67) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 6,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 45,
+                "OP": 0,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 67
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 5,
+                "Stamina": 159,
+                "Position": {
+                    "X": 63,
+                    "Y": 66
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 2: Tsukiko hits Rocky in the torso with Shortsword Stab (Roll 14 (15) vs DEX AC 14 and (14) vs CON AC 14) for 15 piercing damage. HP: 60 -> 45, OP left: 5, Stamina left: 159"
+        },
+        {
+            "Round": 6,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 33,
+                "OP": 0,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 67
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 2,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 66
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 2: Tsukiko hits Rocky in the torso with Shortsword Slash (Roll 19 (20) vs DEX AC 16 and (19) vs CON AC 16) for 12 slashing damage. HP: 45 -> 33, OP left: 2, Stamina left: 156"
+        },
+        {
+            "Round": 7,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 33,
+                "OP": 6,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 67
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 6,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 66
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 7 Start: Rocky rolls 6 OP and Tsukiko rolls 6."
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 33,
+                "OP": 0,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 76
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 6,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 66
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 7, Turn 1: Rocky kites from (63, 67) to (63, 76) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 7,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 33,
+                "OP": 0,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 76
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 75
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 7, Turn 2: Tsukiko advances from (63,66) to (63,75) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 8,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 33,
+                "OP": 20,
+                "Stamina": 170,
+                "Position": {
+                    "X": 63,
+                    "Y": 76
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 7,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 75
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 8 Start: Rocky rolls 20 OP and Tsukiko rolls 7."
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 33,
+                "OP": 17,
+                "Stamina": 168,
+                "Position": {
+                    "X": 63,
+                    "Y": 76
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 7,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 75
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Rocky attacks Tsukiko's limbs using Bite (Roll 9 (8) vs DEX AC 14 and (17) vs CON AC 14) but misses. OP left: 17, Stamina left: 168"
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 33,
+                "OP": 0,
+                "Stamina": 168,
+                "Position": {
+                    "X": 63,
+                    "Y": 96
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 7,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 75
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 8, Turn 1: Rocky kites from (63, 76) to (63, 96) in 20 step(s). OP left: 0"
+        },
+        {
+            "Round": 8,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 33,
+                "OP": 0,
+                "Stamina": 168,
+                "Position": {
+                    "X": 63,
+                    "Y": 96
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 85
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 8, Turn 2: Tsukiko advances from (63,75) to (63,85) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 9,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 33,
+                "OP": 5,
+                "Stamina": 168,
+                "Position": {
+                    "X": 63,
+                    "Y": 96
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 18,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 85
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 9 Start: Rocky rolls 5 OP and Tsukiko rolls 18."
+        },
+        {
+            "Round": 9,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 33,
+                "OP": 5,
+                "Stamina": 168,
+                "Position": {
+                    "X": 63,
+                    "Y": 96
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 95
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 9, Turn 1: Tsukiko advances from (63,85) to (63,95) in 21 step(s). OP left: 0"
+        },
+        {
+            "Round": 9,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 33,
+                "OP": 2,
+                "Stamina": 164,
+                "Position": {
+                    "X": 63,
+                    "Y": 96
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 95
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 9, Turn 1: Rocky attacks Tsukiko's torso using Dart (Roll 14 (13) vs DEX AC 14 and (22) vs CON AC 14) but misses. OP left: 2, Stamina left: 164"
+        },
+        {
+            "Round": 10,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 33,
+                "OP": 7,
+                "Stamina": 164,
+                "Position": {
+                    "X": 63,
+                    "Y": 96
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 6,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 95
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 10 Start: Rocky rolls 7 OP and Tsukiko rolls 6."
+        },
+        {
+            "Round": 10,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 33,
+                "OP": 0,
+                "Stamina": 164,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 6,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 95
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 10, Turn 1: Rocky kites from (63, 96) to (63, 100) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 10,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 33,
+                "OP": 0,
+                "Stamina": 164,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 10, Turn 2: Tsukiko advances from (63,95) to (63,99) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 11,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 33,
+                "OP": 4,
+                "Stamina": 164,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 9,
+                "Stamina": 156,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 11 Start: Rocky rolls 4 OP and Tsukiko rolls 9."
+        },
+        {
+            "Round": 11,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 3,
+                "OP": 4,
+                "Stamina": 164,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 6,
+                "Stamina": 153,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 1: Tsukiko hits Rocky in the limbs with Shortsword Stab (Roll 20 (21) vs DEX AC 14 and (20) vs CON AC 14) for 30 piercing damage. HP: 33 -> 3, OP left: 6, Stamina left: 153"
+        },
+        {
+            "Round": 11,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 3,
+                "OP": 4,
+                "Stamina": 164,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 3,
+                "Stamina": 150,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 1: Tsukiko attacks Rocky's head using Shortsword Slash (Roll 4 (5) vs DEX AC 20 and (4) vs CON AC 20) but misses. OP left: 3, Stamina left: 150"
+        },
+        {
+            "Round": 11,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 3,
+                "OP": 1,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 3,
+                "Stamina": 150,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 2: Rocky attacks Tsukiko's head using Bite (Roll 4 (3) vs DEX AC 20 and (12) vs CON AC 20) but misses. OP left: 1, Stamina left: 162"
+        },
+        {
+            "Round": 11,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 3,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 3,
+                "Stamina": 150,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 11, Turn 2: Rocky kites from (63, 100) to (63, 100) in 4 step(s). OP left: 0"
+        },
+        {
+            "Round": 11,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 3,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 3: Tsukiko attacks Rocky's torso using Dagger (Roll 1 (2) vs DEX AC 14 and (1) vs CON AC 14) but misses. OP left: 0, Stamina left: 148"
+        },
+        {
+            "Round": 12,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 3,
+                "OP": 9,
+                "Stamina": 162,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 8,
+                "Stamina": 148,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 12 Start: Rocky rolls 9 OP and Tsukiko rolls 8."
+        },
+        {
+            "Round": 12,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 3,
+                "OP": 6,
+                "Stamina": 158,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 8,
+                "Stamina": 148,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 12, Turn 1: Rocky attacks Tsukiko's torso using Dart (Roll 1 (0) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 6, Stamina left: 158"
+        },
+        {
+            "Round": 12,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 3,
+                "OP": 0,
+                "Stamina": 158,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 8,
+                "Stamina": 148,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 12, Turn 1: Rocky kites from (63, 100) to (63, 100) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 12,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 3,
+                "OP": 0,
+                "Stamina": 158,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 5,
+                "Stamina": 145,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 12, Turn 2: Tsukiko attacks Rocky's torso using Shortsword Slash (Roll 5 (6) vs DEX AC 16 and (5) vs CON AC 16) but misses. OP left: 5, Stamina left: 145"
+        },
+        {
+            "Round": 12,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 3,
+                "OP": 0,
+                "Stamina": 158,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 2,
+                "Stamina": 143,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 12, Turn 2: Tsukiko attacks Rocky's head using Dagger (Roll 6 (7) vs DEX AC 20 and (6) vs CON AC 20) but misses. OP left: 2, Stamina left: 143"
+        },
+        {
+            "Round": 13,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 3,
+                "OP": 10,
+                "Stamina": 158,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 6,
+                "Stamina": 143,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 13 Start: Rocky rolls 10 OP and Tsukiko rolls 6."
+        },
+        {
+            "Round": 13,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 3,
+                "OP": 0,
+                "Stamina": 158,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 6,
+                "Stamina": 143,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 13, Turn 1: Rocky kites from (63, 100) to (63, 100) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 13,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 3,
+                "OP": 0,
+                "Stamina": 158,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 3,
+                "Stamina": 140,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 13, Turn 2: Tsukiko attacks Rocky's limbs using Shortsword Slash (Roll 5 (6) vs DEX AC 14 and (5) vs CON AC 14) but misses. OP left: 3, Stamina left: 140"
+        },
+        {
+            "Round": 13,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 3,
+                "OP": 0,
+                "Stamina": 158,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 137,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 13, Turn 2: Tsukiko attacks Rocky's head using Shortsword Stab (Roll 17 (18) vs DEX AC 20 and (17) vs CON AC 20) but misses. OP left: 0, Stamina left: 137"
+        },
+        {
+            "Round": 14,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 3,
+                "OP": 8,
+                "Stamina": 158,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 10,
+                "Stamina": 137,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 14 Start: Rocky rolls 8 OP and Tsukiko rolls 10."
+        },
+        {
+            "Round": 14,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": -12,
+                "OP": 8,
+                "Stamina": 158,
+                "Position": {
+                    "X": 63,
+                    "Y": 100
+                }
+            },
+            "C2": {
+                "HP": 21,
+                "OP": 7,
+                "Stamina": 135,
+                "Position": {
+                    "X": 63,
+                    "Y": 99
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 14, Turn 1: Tsukiko hits Rocky in the torso with Dagger (Roll 19 (20) vs DEX AC 14 and (19) vs CON AC 14) for 15 piercing damage. HP: 3 -> -12, OP left: 7, Stamina left: 135"
+        }
+    ]
+}

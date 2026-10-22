@@ -1,0 +1,347 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Strov (Bison)",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 240
+        },
+        "C_2": {
+            "Name": "Rhana",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 174
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 240,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Strov (Bison) rolls 7 OP and Rhana rolls 4."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Strov (Bison) advances from (45,50) to (55,50) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 78,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Rhana advances from (85,40) to (78,40) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 240,
+                "Position": {
+                    "X": 55,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 174,
+                "Position": {
+                    "X": 78,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Strov (Bison) rolls 10 OP and Rhana rolls 5."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 68,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 174,
+                "Position": {
+                    "X": 78,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Strov (Bison) advances from (55,50) to (68,50) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 68,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 74,
+                    "Y": 44
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Rhana advances from (78,40) to (74,44) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 240,
+                "Position": {
+                    "X": 68,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 174,
+                "Position": {
+                    "X": 74,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Strov (Bison) rolls 10 OP and Rhana rolls 6."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 174,
+                "Position": {
+                    "X": 74,
+                    "Y": 44
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Strov (Bison) advances from (68,50) to (74,45) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 173,
+                "Position": {
+                    "X": 74,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Rhana attacks Strov (Bison)'s limbs using Punch (Roll 6 (2) vs DEX AC 16 and (6) vs CON AC 16) but misses. OP left: 3, Stamina left: 173"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 240,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 74,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Rhana attacks Strov (Bison)'s torso using Punch (Roll 12 (8) vs DEX AC 14 and (12) vs CON AC 14) but misses. OP left: 0, Stamina left: 172"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 240,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 74,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Strov (Bison) rolls 7 OP and Rhana rolls 3."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 234,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 74,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Strov (Bison) attacks Rhana's limbs using Charge (Roll 1 (5) vs DEX AC 16 and (1) vs CON AC 16) but misses. OP left: 4, Stamina left: 234"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 232,
+                "Position": {
+                    "X": 74,
+                    "Y": 45
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 74,
+                    "Y": 44
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Strov (Bison) strikes Rhana's limbs with Kick (Roll 15 (19) vs DEX AC 16) and INSTANTLY KOs them! (Target CON: 580, Scrub Doriki: 848)."
+        }
+    ]
+}

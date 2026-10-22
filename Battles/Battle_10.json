@@ -1,0 +1,897 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Strov (Hybrid)",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 210
+        },
+        "C_2": {
+            "Name": "Tsukiko",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 162
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 210,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Strov (Hybrid) rolls 9 OP and Tsukiko rolls 6."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 57,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Strov (Hybrid) advances from (45,50) to (57,50) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 57,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 76,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Tsukiko advances from (85,40) to (76,40) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 210,
+                "Position": {
+                    "X": 57,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 162,
+                "Position": {
+                    "X": 76,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Strov (Hybrid) rolls 8 OP and Tsukiko rolls 4."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 67,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 162,
+                "Position": {
+                    "X": 76,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Strov (Hybrid) advances from (57,50) to (67,49) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 67,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 162,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Tsukiko advances from (76,40) to (72,43) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 22,
+                "Stamina": 210,
+                "Position": {
+                    "X": 67,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 14,
+                "Stamina": 162,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Strov (Hybrid) rolls 22 OP and Tsukiko rolls 14."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 14,
+                "Stamina": 162,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Strov (Hybrid) advances from (67,49) to (72,44) in 25 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 159,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Tsukiko attacks Strov (Hybrid)'s head using Shortsword Slash (Roll 3 (3) vs DEX AC 20 and (3) vs CON AC 20) but misses. OP left: 11, Stamina left: 159"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 157,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Tsukiko attacks Strov (Hybrid)'s torso using Dagger (Roll 3 (3) vs DEX AC 14 and (3) vs CON AC 14) but misses. OP left: 8, Stamina left: 157"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 154,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Tsukiko attacks Strov (Hybrid)'s torso using Shortsword Slash (Roll 8 (8) vs DEX AC 16 and (8) vs CON AC 16) but misses. OP left: 5, Stamina left: 154"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 152,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Tsukiko attacks Strov (Hybrid)'s torso using Dagger (Roll 1 (1) vs DEX AC 14 and (1) vs CON AC 14) but misses. OP left: 2, Stamina left: 152"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 22,
+                "Stamina": 152,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Strov (Hybrid) rolls 5 OP and Tsukiko rolls 22."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 19,
+                "Stamina": 149,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko attacks Strov (Hybrid)'s limbs using Shortsword Slash (Roll 3 (3) vs DEX AC 14 and (3) vs CON AC 14) but misses. OP left: 19, Stamina left: 149"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 16,
+                "Stamina": 146,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko attacks Strov (Hybrid)'s limbs using Shortsword Stab (Roll 4 (4) vs DEX AC 14 and (4) vs CON AC 14) but misses. OP left: 16, Stamina left: 146"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 13,
+                "Stamina": 144,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko strikes Strov (Hybrid)'s limbs with Dagger (Roll 14 (14)), but CANNOT DEAL DAMAGE to Strov (Hybrid)"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 142,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko attacks Strov (Hybrid)'s limbs using Dagger (Roll 7 (7) vs DEX AC 14 and (7) vs CON AC 14) but misses. OP left: 10, Stamina left: 142"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 5,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 139,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko attacks Strov (Hybrid)'s torso using Shortsword Stab (Roll 9 (9) vs DEX AC 14 and (9) vs CON AC 14) but misses. OP left: 7, Stamina left: 139"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 6,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 210,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 137,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Tsukiko strikes Strov (Hybrid)'s torso with Dagger Sneak Attack (Roll 18 (18)), but CANNOT DEAL DAMAGE to Strov (Hybrid)"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 207,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 137,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 2: Strov (Hybrid) attacks Tsukiko's torso using Greatsword Stab (Roll 8 (8) vs DEX AC 14 and (8) vs CON AC 14) but misses. OP left: 2, Stamina left: 207"
+        },
+        {
+            "Round": 4,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 207,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 134,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 3: Tsukiko attacks Strov (Hybrid)'s limbs using Shortsword Stab (Roll 7 (7) vs DEX AC 14 and (7) vs CON AC 14) but misses. OP left: 1, Stamina left: 134"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 207,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 134,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Strov (Hybrid) rolls 3 OP and Tsukiko rolls 9."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 207,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 131,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Tsukiko strikes Strov (Hybrid)'s limbs with Shortsword Stab (Roll 14 (14)), but CANNOT DEAL DAMAGE to Strov (Hybrid)"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 207,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 128,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Tsukiko attacks Strov (Hybrid)'s torso using Shortsword Slash (Roll 3 (3) vs DEX AC 16 and (3) vs CON AC 16) but misses. OP left: 3, Stamina left: 128"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 206,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 128,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Strov (Hybrid) attacks Tsukiko's head using Kick (Roll 15 (15) vs DEX AC 20 and (15) vs CON AC 20) but misses. OP left: 0, Stamina left: 206"
+        },
+        {
+            "Round": 5,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 206,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 125,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 2: Tsukiko attacks Strov (Hybrid)'s limbs using Shortsword Slash (Roll 2 (2) vs DEX AC 14 and (2) vs CON AC 14) but misses. OP left: 0, Stamina left: 125"
+        },
+        {
+            "Round": 6,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 206,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 125,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 6 Start: Strov (Hybrid) rolls 3 OP and Tsukiko rolls 7."
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 206,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 122,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Tsukiko strikes Strov (Hybrid)'s limbs with Shortsword Stab (Roll 20 (20)), but CANNOT DEAL DAMAGE to Strov (Hybrid)"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 206,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 119,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Tsukiko attacks Strov (Hybrid)'s torso using Shortsword Stab (Roll 13 (13) vs DEX AC 14 and (13) vs CON AC 14) but misses. OP left: 1, Stamina left: 119"
+        },
+        {
+            "Round": 6,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 205,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 119,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 2: Strov (Hybrid) attacks Tsukiko's limbs using Kick (Roll 1 (1) vs DEX AC 16 and (1) vs CON AC 16) but misses. OP left: 0, Stamina left: 205"
+        },
+        {
+            "Round": 7,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 205,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 119,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 7 Start: Strov (Hybrid) rolls 9 OP and Tsukiko rolls 11."
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 205,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 116,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 1: Tsukiko attacks Strov (Hybrid)'s torso using Shortsword Stab (Roll 12 (12) vs DEX AC 14 and (12) vs CON AC 14) but misses. OP left: 8, Stamina left: 116"
+        },
+        {
+            "Round": 7,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 204,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 116,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 2: Strov (Hybrid) attacks Tsukiko's torso using Kick (Roll 4 (4) vs DEX AC 14 and (4) vs CON AC 14) but misses. OP left: 6, Stamina left: 204"
+        },
+        {
+            "Round": 7,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 204,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 113,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 3: Tsukiko strikes Strov (Hybrid)'s limbs with Shortsword Slash (Roll 18 (18)), but CANNOT DEAL DAMAGE to Strov (Hybrid)"
+        },
+        {
+            "Round": 7,
+            "Turn": 4,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 203,
+                "Position": {
+                    "X": 72,
+                    "Y": 44
+                }
+            },
+            "C2": {
+                "HP": 0,
+                "OP": 5,
+                "Stamina": 113,
+                "Position": {
+                    "X": 72,
+                    "Y": 43
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 4: Strov (Hybrid) strikes Tsukiko's torso with Kick (Roll 15 (15) vs DEX AC 14) and INSTANTLY KOs them! (Target CON: 525, Scrub Doriki: 728)."
+        }
+    ]
+}

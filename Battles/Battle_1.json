@@ -1,0 +1,3647 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 180
+        },
+        "C_2": {
+            "Name": "Aegis",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 168
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 17,
+                "Stamina": 168,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Strov rolls 3 OP and Aegis rolls 17."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 14,
+                "Stamina": 167,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 14, Stamina left: 167"
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 166,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 11, Stamina left: 166"
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 165,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the limbs with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 8, Stamina left: 165"
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 164,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 5, Stamina left: 164"
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 5,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 163,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 1, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the head with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 2, Stamina left: 163"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 51,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 163,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Strov advances from (45,50) to (51,50) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 180,
+                "Position": {
+                    "X": 51,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 163,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Strov rolls 5 OP and Aegis rolls 10."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 180,
+                "Position": {
+                    "X": 51,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 162,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 2, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the head with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 7, Stamina left: 162"
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 180,
+                "Position": {
+                    "X": 51,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 161,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 2, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the limbs with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 4, Stamina left: 161"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 59,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 161,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Strov advances from (51,50) to (59,50) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 59,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 160,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 2, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 1, Stamina left: 160"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 180,
+                "Position": {
+                    "X": 59,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 160,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Strov rolls 15 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 76,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 160,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Strov advances from (59,50) to (76,49) in 18 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 76,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 159,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the limbs with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 0, Stamina left: 159"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 180,
+                "Position": {
+                    "X": 76,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 159,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Strov rolls 9 OP and Aegis rolls 6."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 82,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 159,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 1: Strov advances from (76,49) to (82,43) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 82,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 158,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the head with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 3, Stamina left: 158"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 82,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 158,
+                "Position": {
+                    "X": 91,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 4, Turn 2: Aegis kites from (85, 40) to (91, 40) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 180,
+                "Position": {
+                    "X": 82,
+                    "Y": 43
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 158,
+                "Position": {
+                    "X": 91,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Strov rolls 15 OP and Aegis rolls 10."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 158,
+                "Position": {
+                    "X": 91,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 5, Turn 1: Strov advances from (82,43) to (91,41) in 18 step(s). OP left: 0"
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 157,
+                "Position": {
+                    "X": 91,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 7, Stamina left: 157"
+        },
+        {
+            "Round": 5,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 157,
+                "Position": {
+                    "X": 91,
+                    "Y": 30
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 5, Turn 2: Aegis kites from (91, 40) to (91, 30) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 6,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 41
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 157,
+                "Position": {
+                    "X": 91,
+                    "Y": 30
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 6 Start: Strov rolls 6 OP and Aegis rolls 6."
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 32
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 157,
+                "Position": {
+                    "X": 91,
+                    "Y": 30
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 6, Turn 1: Strov advances from (91,41) to (91,32) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 32
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 156,
+                "Position": {
+                    "X": 91,
+                    "Y": 30
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 3, Stamina left: 156"
+        },
+        {
+            "Round": 6,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 32
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 155,
+                "Position": {
+                    "X": 91,
+                    "Y": 30
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 2: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 0, Stamina left: 155"
+        },
+        {
+            "Round": 7,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 32
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 155,
+                "Position": {
+                    "X": 91,
+                    "Y": 30
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 7 Start: Strov rolls 4 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 32
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 30
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 7, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Acid Gun, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 8, Stamina left: 154"
+        },
+        {
+            "Round": 7,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 32
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 19
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 7, Turn 1: Aegis kites from (91, 30) to (91, 19) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 7,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 25
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 19
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 7, Turn 2: Strov advances from (91,32) to (91,25) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 8,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 25
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 13,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 19
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 8 Start: Strov rolls 6 OP and Aegis rolls 13."
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 25
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 153,
+                "Position": {
+                    "X": 91,
+                    "Y": 19
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 10, Stamina left: 153"
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 25
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 152,
+                "Position": {
+                    "X": 91,
+                    "Y": 19
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 7, Stamina left: 152"
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 25
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 151,
+                "Position": {
+                    "X": 91,
+                    "Y": 19
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 4, Stamina left: 151"
+        },
+        {
+            "Round": 8,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 20
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 151,
+                "Position": {
+                    "X": 91,
+                    "Y": 19
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 8, Turn 2: Strov advances from (91,25) to (91,20) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 8,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 20
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 150,
+                "Position": {
+                    "X": 91,
+                    "Y": 19
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 8, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the limbs with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 1, Stamina left: 150"
+        },
+        {
+            "Round": 9,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 20
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 150,
+                "Position": {
+                    "X": 91,
+                    "Y": 19
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 9 Start: Strov rolls 6 OP and Aegis rolls 7."
+        },
+        {
+            "Round": 9,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 20
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 149,
+                "Position": {
+                    "X": 91,
+                    "Y": 19
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 9, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the limbs with Punch, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 4, Stamina left: 149"
+        },
+        {
+            "Round": 9,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 20
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 149,
+                "Position": {
+                    "X": 91,
+                    "Y": 12
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 9, Turn 1: Aegis kites from (91, 19) to (91, 12) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 9,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 13
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 149,
+                "Position": {
+                    "X": 91,
+                    "Y": 12
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 9, Turn 2: Strov advances from (91,20) to (91,13) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 10,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 180,
+                "Position": {
+                    "X": 91,
+                    "Y": 13
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 149,
+                "Position": {
+                    "X": 91,
+                    "Y": 12
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 10 Start: Strov rolls 3 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 10,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 176,
+                "Position": {
+                    "X": 91,
+                    "Y": 13
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 149,
+                "Position": {
+                    "X": 91,
+                    "Y": 12
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 10, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 176"
+        },
+        {
+            "Round": 10,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 176,
+                "Position": {
+                    "X": 91,
+                    "Y": 13
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 148,
+                "Position": {
+                    "X": 91,
+                    "Y": 12
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 10, Turn 2: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the limbs with Acid Gun, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 0, Stamina left: 148"
+        },
+        {
+            "Round": 11,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 176,
+                "Position": {
+                    "X": 91,
+                    "Y": 13
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 148,
+                "Position": {
+                    "X": 91,
+                    "Y": 12
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 11 Start: Strov rolls 6 OP and Aegis rolls 5."
+        },
+        {
+            "Round": 11,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 91,
+                    "Y": 13
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 148,
+                "Position": {
+                    "X": 91,
+                    "Y": 12
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 172"
+        },
+        {
+            "Round": 11,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 91,
+                    "Y": 13
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 12
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 11, Turn 2: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Punch, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 2, Stamina left: 147"
+        },
+        {
+            "Round": 11,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 172,
+                "Position": {
+                    "X": 91,
+                    "Y": 13
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 7
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 11, Turn 2: Aegis kites from (91, 12) to (91, 7) in 5 step(s). OP left: 0"
+        },
+        {
+            "Round": 11,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 172,
+                "Position": {
+                    "X": 91,
+                    "Y": 8
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 7
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 11, Turn 3: Strov advances from (91,13) to (91,8) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 12,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 17,
+                "Stamina": 172,
+                "Position": {
+                    "X": 91,
+                    "Y": 8
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 7
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 12 Start: Strov rolls 17 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 12,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 14,
+                "Stamina": 168,
+                "Position": {
+                    "X": 91,
+                    "Y": 8
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 7
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 12, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 14, Stamina left: 168"
+        },
+        {
+            "Round": 12,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 164,
+                "Position": {
+                    "X": 91,
+                    "Y": 8
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 7
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 12, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 11, Stamina left: 164"
+        },
+        {
+            "Round": 12,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 160,
+                "Position": {
+                    "X": 91,
+                    "Y": 8
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 7
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 12, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 8, Stamina left: 160"
+        },
+        {
+            "Round": 12,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 156,
+                "Position": {
+                    "X": 91,
+                    "Y": 8
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 7
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 12, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 5, Stamina left: 156"
+        },
+        {
+            "Round": 12,
+            "Turn": 1,
+            "Action": 5,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 8
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 7
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 12, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 2, Stamina left: 154"
+        },
+        {
+            "Round": 12,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 8
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 12, Turn 2: Aegis kites from (91, 7) to (91, 0) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 12,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 3
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 12, Turn 3: Strov advances from (91,8) to (91,3) in 5 step(s). OP left: 0"
+        },
+        {
+            "Round": 13,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 3
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 13 Start: Strov rolls 5 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 13,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 147,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 13, Turn 1: Strov advances from (91,3) to (91,1) in 8 step(s). OP left: 0"
+        },
+        {
+            "Round": 13,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 13, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 1, Stamina left: 146"
+        },
+        {
+            "Round": 14,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 14 Start: Strov rolls 5 OP and Aegis rolls 10."
+        },
+        {
+            "Round": 14,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 154,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 14, Turn 1: Aegis kites from (91, 0) to (91, 0) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 14,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 150,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 14, Turn 2: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 2, Stamina left: 150"
+        },
+        {
+            "Round": 15,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 150,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 15 Start: Strov rolls 10 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 15,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 15, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 7, Stamina left: 146"
+        },
+        {
+            "Round": 15,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 144,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 15, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 4, Stamina left: 144"
+        },
+        {
+            "Round": 15,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 15, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 1, Stamina left: 142"
+        },
+        {
+            "Round": 15,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 15, Turn 2: Aegis kites from (91, 0) to (91, 0) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 16,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 17,
+                "Stamina": 146,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 16 Start: Strov rolls 8 OP and Aegis rolls 17."
+        },
+        {
+            "Round": 16,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 14,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 16, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 14, Stamina left: 145"
+        },
+        {
+            "Round": 16,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 16, Turn 1: Aegis kites from (91, 0) to (91, 0) in 17 step(s). OP left: 0"
+        },
+        {
+            "Round": 16,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 138,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 16, Turn 2: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 5, Stamina left: 138"
+        },
+        {
+            "Round": 16,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 136,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 16, Turn 2: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 2, Stamina left: 136"
+        },
+        {
+            "Round": 17,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 136,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 17 Start: Strov rolls 6 OP and Aegis rolls 6."
+        },
+        {
+            "Round": 17,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 132,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 17, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 132"
+        },
+        {
+            "Round": 17,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 132,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 17, Turn 2: Aegis kites from (91, 0) to (91, 0) in 9 step(s). OP left: 0"
+        },
+        {
+            "Round": 17,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 128,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 17, Turn 3: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 128"
+        },
+        {
+            "Round": 18,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 128,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 18 Start: Strov rolls 8 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 18,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 128,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 18, Turn 1: Aegis kites from (91, 0) to (91, 0) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 18,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 124,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 18, Turn 2: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 5, Stamina left: 124"
+        },
+        {
+            "Round": 18,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 120,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 18, Turn 2: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 2, Stamina left: 120"
+        },
+        {
+            "Round": 19,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 120,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 19 Start: Strov rolls 15 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 19,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 12,
+                "Stamina": 116,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 19, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 12, Stamina left: 116"
+        },
+        {
+            "Round": 19,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 112,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 19, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 9, Stamina left: 112"
+        },
+        {
+            "Round": 19,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 108,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 19, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 6, Stamina left: 108"
+        },
+        {
+            "Round": 19,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 104,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 19, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 104"
+        },
+        {
+            "Round": 19,
+            "Turn": 1,
+            "Action": 5,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 100,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 19, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 100"
+        },
+        {
+            "Round": 19,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 100,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 19, Turn 2: Aegis kites from (91, 0) to (91, 0) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 20,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 20,
+                "Stamina": 100,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 20 Start: Strov rolls 20 OP and Aegis rolls 3."
+        },
+        {
+            "Round": 20,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 17,
+                "Stamina": 96,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 20, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 17, Stamina left: 96"
+        },
+        {
+            "Round": 20,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 14,
+                "Stamina": 92,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 20, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 14, Stamina left: 92"
+        },
+        {
+            "Round": 20,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 88,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 20, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 11, Stamina left: 88"
+        },
+        {
+            "Round": 20,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 84,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 20, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 8, Stamina left: 84"
+        },
+        {
+            "Round": 20,
+            "Turn": 1,
+            "Action": 5,
+            "C1": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 80,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 20, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 5, Stamina left: 80"
+        },
+        {
+            "Round": 20,
+            "Turn": 1,
+            "Action": 6,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 76,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 145,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 20, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 2, Stamina left: 76"
+        },
+        {
+            "Round": 20,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 76,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 144,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 20, Turn 2: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the limbs with Acid Gun, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 0, Stamina left: 144"
+        },
+        {
+            "Round": 21,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 76,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 144,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 21 Start: Strov rolls 9 OP and Aegis rolls 4."
+        },
+        {
+            "Round": 21,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 72,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 144,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 21, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 6, Stamina left: 72"
+        },
+        {
+            "Round": 21,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 68,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 144,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 21, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 68"
+        },
+        {
+            "Round": 21,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 68,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 143,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 21, Turn 2: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the limbs with Acid Gun, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 1, Stamina left: 143"
+        },
+        {
+            "Round": 21,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 68,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 143,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 21, Turn 2: Aegis kites from (91, 0) to (91, 0) in 4 step(s). OP left: 0"
+        },
+        {
+            "Round": 21,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 66,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 143,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 21, Turn 3: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 66"
+        },
+        {
+            "Round": 22,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 66,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 143,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 22 Start: Strov rolls 9 OP and Aegis rolls 7."
+        },
+        {
+            "Round": 22,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 62,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 143,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 22, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 6, Stamina left: 62"
+        },
+        {
+            "Round": 22,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 62,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 22, Turn 2: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the limbs with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 4, Stamina left: 142"
+        },
+        {
+            "Round": 22,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 62,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 22, Turn 2: Aegis kites from (91, 0) to (91, 0) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 22,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 58,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 22, Turn 3: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 58"
+        },
+        {
+            "Round": 22,
+            "Turn": 3,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 54,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 22, Turn 3: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 54"
+        },
+        {
+            "Round": 23,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 19,
+                "Stamina": 54,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 23 Start: Strov rolls 19 OP and Aegis rolls 7."
+        },
+        {
+            "Round": 23,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 16,
+                "Stamina": 50,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 23, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 16, Stamina left: 50"
+        },
+        {
+            "Round": 23,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 13,
+                "Stamina": 48,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 23, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 13, Stamina left: 48"
+        },
+        {
+            "Round": 23,
+            "Turn": 1,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 44,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 23, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 10, Stamina left: 44"
+        },
+        {
+            "Round": 23,
+            "Turn": 1,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 40,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 23, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 7, Stamina left: 40"
+        },
+        {
+            "Round": 23,
+            "Turn": 1,
+            "Action": 5,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 36,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 23, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 4, Stamina left: 36"
+        },
+        {
+            "Round": 23,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 36,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 23, Turn 2: Aegis kites from (91, 0) to (91, 0) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 23,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 32,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 23, Turn 3: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 1, Stamina left: 32"
+        },
+        {
+            "Round": 24,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 32,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 24 Start: Strov rolls 6 OP and Aegis rolls 6."
+        },
+        {
+            "Round": 24,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 30,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 142,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 24, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 30"
+        },
+        {
+            "Round": 24,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 30,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 141,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 24, Turn 2: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the head with Acid Gun, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 3, Stamina left: 141"
+        },
+        {
+            "Round": 24,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 30,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 141,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 24, Turn 2: Aegis kites from (91, 0) to (91, 0) in 6 step(s). OP left: 0"
+        },
+        {
+            "Round": 24,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 26,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 141,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 24, Turn 3: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 26"
+        },
+        {
+            "Round": 25,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 26,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 141,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 25 Start: Strov rolls 2 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 25,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 26,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 141,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 25, Turn 1: Aegis kites from (91, 0) to (91, 0) in 14 step(s). OP left: 0"
+        },
+        {
+            "Round": 26,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 26,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 141,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 26 Start: Strov rolls 4 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 26,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 26,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 140,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 26, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the head with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 8, Stamina left: 140"
+        },
+        {
+            "Round": 26,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 26,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 140,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 26, Turn 1: Aegis kites from (91, 0) to (91, 0) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 26,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 22,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 140,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 26, Turn 2: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 1, Stamina left: 22"
+        },
+        {
+            "Round": 27,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 22,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 140,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 27 Start: Strov rolls 7 OP and Aegis rolls 10."
+        },
+        {
+            "Round": 27,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 22,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 139,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 27, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the torso with Punch, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 7, Stamina left: 139"
+        },
+        {
+            "Round": 27,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 22,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 139,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 27, Turn 1: Aegis kites from (91, 0) to (91, 0) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 27,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 18,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 139,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 27, Turn 2: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 4, Stamina left: 18"
+        },
+        {
+            "Round": 27,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 14,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 139,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 27, Turn 2: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 1, Stamina left: 14"
+        },
+        {
+            "Round": 28,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 14,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 139,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 28 Start: Strov rolls 10 OP and Aegis rolls 9."
+        },
+        {
+            "Round": 28,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 10,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 139,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 28, Turn 1: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 7, Stamina left: 10"
+        },
+        {
+            "Round": 28,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 10,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 139,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 28, Turn 2: Aegis kites from (91, 0) to (91, 0) in 12 step(s). OP left: 0"
+        },
+        {
+            "Round": 28,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 8,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 139,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 28, Turn 3: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 4, Stamina left: 8"
+        },
+        {
+            "Round": 28,
+            "Turn": 3,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 4,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 139,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 28, Turn 3: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 1, Stamina left: 4"
+        },
+        {
+            "Round": 29,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 4,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 22,
+                "Stamina": 139,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 29 Start: Strov rolls 2 OP and Aegis rolls 22."
+        },
+        {
+            "Round": 29,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 4,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 19,
+                "Stamina": 138,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 29, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the head with Pistol, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 19, Stamina left: 138"
+        },
+        {
+            "Round": 29,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 4,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 138,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 29, Turn 1: Aegis kites from (91, 0) to (91, 0) in 22 step(s). OP left: 0"
+        },
+        {
+            "Round": 30,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 4,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 138,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 30 Start: Strov rolls 9 OP and Aegis rolls 11."
+        },
+        {
+            "Round": 30,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 4,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 137,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 30, Turn 1: Aegis AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 450) in the limbs with Acid Gun, but is UNABLE to deal damage (Target CON: 615, Scrub Doriki: 400.0). OP left: 8, Stamina left: 137"
+        },
+        {
+            "Round": 30,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 4,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 137,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 30, Turn 1: Aegis kites from (91, 0) to (91, 0) in 11 step(s). OP left: 0"
+        },
+        {
+            "Round": 30,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 2,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 137,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 30, Turn 2: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 6, Stamina left: 2"
+        },
+        {
+            "Round": 30,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": -2,
+                "Position": {
+                    "X": 91,
+                    "Y": 1
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 137,
+                "Position": {
+                    "X": 91,
+                    "Y": 0
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 30, Turn 2: Strov CANNOT HIT Aegis (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: -2"
+        }
+    ]
+}

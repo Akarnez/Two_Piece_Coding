@@ -1,0 +1,772 @@
+{
+    "Combatants": {
+        "C_1": {
+            "Name": "Strov",
+            "Initial_Position": {
+                "X": 45,
+                "Y": 50
+            },
+            "Initial_Stamina": 180
+        },
+        "C_2": {
+            "Name": "Rhana (Water)",
+            "Initial_Position": {
+                "X": 85,
+                "Y": 40
+            },
+            "Initial_Stamina": 174
+        }
+    },
+    "Rounds": [
+        {
+            "Round": 1,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 174,
+                "Position": {
+                    "X": 85,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 1 Start: Strov rolls 4 OP and Rhana (Water) rolls 10."
+        },
+        {
+            "Round": 1,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 180,
+                "Position": {
+                    "X": 45,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 72,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 1: Rhana (Water) advances from (85,40) to (72,40) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 1,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 52,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 72,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 1, Turn 2: Strov advances from (45,50) to (52,50) in 7 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 10,
+                "Stamina": 180,
+                "Position": {
+                    "X": 52,
+                    "Y": 50
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 72,
+                    "Y": 40
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 2 Start: Strov rolls 10 OP and Rhana (Water) rolls 7."
+        },
+        {
+            "Round": 2,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 7,
+                "Stamina": 174,
+                "Position": {
+                    "X": 72,
+                    "Y": 40
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 1: Strov advances from (52,50) to (64,49) in 13 step(s). OP left: 0"
+        },
+        {
+            "Round": 2,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 180,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 67,
+                    "Y": 45
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 2, Turn 2: Rhana (Water) advances from (72,40) to (67,45) in 10 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 21,
+                "Stamina": 180,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 22,
+                "Stamina": 174,
+                "Position": {
+                    "X": 67,
+                    "Y": 45
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 3 Start: Strov rolls 21 OP and Rhana (Water) rolls 22."
+        },
+        {
+            "Round": 3,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 21,
+                "Stamina": 180,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "move",
+            "Message": "Round 3, Turn 1: Rhana (Water) advances from (67,45) to (64,48) in 25 step(s). OP left: 0"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 18,
+                "Stamina": 176,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 18, Stamina left: 176"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 15,
+                "Stamina": 172,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 15, Stamina left: 172"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 3,
+            "C1": {
+                "HP": 60,
+                "OP": 12,
+                "Stamina": 168,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 12, Stamina left: 168"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 4,
+            "C1": {
+                "HP": 60,
+                "OP": 9,
+                "Stamina": 166,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 9, Stamina left: 166"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 5,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 162,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 6, Stamina left: 162"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 6,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 158,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 158"
+        },
+        {
+            "Round": 3,
+            "Turn": 2,
+            "Action": 7,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 156,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 3, Turn 2: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 156"
+        },
+        {
+            "Round": 4,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 156,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 11,
+                "Stamina": 174,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 4 Start: Strov rolls 6 OP and Rhana (Water) rolls 11."
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 156,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 8,
+                "Stamina": 173,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Rhana (Water) AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 480) in the limbs with Punch, but does NO DAMAGE (Roll 2 (10) vs CON AC 16). OP left: 8, Stamina left: 173"
+        },
+        {
+            "Round": 4,
+            "Turn": 1,
+            "Action": 2,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 156,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 172,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 1: Rhana (Water) AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 480) in the torso with Punch, but does NO DAMAGE (Roll 2 (10) vs CON AC 14). OP left: 5, Stamina left: 172"
+        },
+        {
+            "Round": 4,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 152,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 5,
+                "Stamina": 172,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 2: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 152"
+        },
+        {
+            "Round": 4,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 152,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 170,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 3: Rhana (Water) AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 480) in the torso with Bite, but does NO DAMAGE (Roll 5 (13) vs CON AC 14). OP left: 2, Stamina left: 170"
+        },
+        {
+            "Round": 4,
+            "Turn": 4,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 150,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 2,
+                "Stamina": 170,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 4, Turn 4: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 150"
+        },
+        {
+            "Round": 5,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 150,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 170,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 5 Start: Strov rolls 6 OP and Rhana (Water) rolls 4."
+        },
+        {
+            "Round": 5,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 146,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 4,
+                "Stamina": 170,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 1: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 146"
+        },
+        {
+            "Round": 5,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 21,
+                "OP": 3,
+                "Stamina": 146,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 168,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 2: Rhana (Water) AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 480) in the limbs with Bite (Roll 19 (27) vs CON AC 14) for 39 piercing damage. HP: 60 -> 21, OP left: 1, Stamina left: 168"
+        },
+        {
+            "Round": 5,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 142,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 1,
+                "Stamina": 168,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 5, Turn 3: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 142"
+        },
+        {
+            "Round": 6,
+            "Turn": 0,
+            "Action": 0,
+            "C1": {
+                "HP": 21,
+                "OP": 6,
+                "Stamina": 142,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 168,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Roll_OP",
+            "Message": "Round 6 Start: Strov rolls 6 OP and Rhana (Water) rolls 6."
+        },
+        {
+            "Round": 6,
+            "Turn": 1,
+            "Action": 1,
+            "C1": {
+                "HP": 21,
+                "OP": 3,
+                "Stamina": 138,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 6,
+                "Stamina": 168,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 1: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 3, Stamina left: 138"
+        },
+        {
+            "Round": 6,
+            "Turn": 2,
+            "Action": 1,
+            "C1": {
+                "HP": 21,
+                "OP": 3,
+                "Stamina": 138,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 167,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 2: Rhana (Water) AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 480) in the limbs with Punch, but does NO DAMAGE (Roll 5 (13) vs CON AC 16). OP left: 3, Stamina left: 167"
+        },
+        {
+            "Round": 6,
+            "Turn": 2,
+            "Action": 2,
+            "C1": {
+                "HP": 21,
+                "OP": 0,
+                "Stamina": 134,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 3,
+                "Stamina": 167,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 2: Strov CANNOT HIT Rhana (Water) (Self DEX: 425, Opponent DEX Scrub Doriki: 255). OP left: 0, Stamina left: 134"
+        },
+        {
+            "Round": 6,
+            "Turn": 3,
+            "Action": 1,
+            "C1": {
+                "HP": -18,
+                "OP": 0,
+                "Stamina": 134,
+                "Position": {
+                    "X": 64,
+                    "Y": 49
+                }
+            },
+            "C2": {
+                "HP": 60,
+                "OP": 0,
+                "Stamina": 165,
+                "Position": {
+                    "X": 64,
+                    "Y": 48
+                }
+            },
+            "Action_type": "Attack",
+            "Message": "Round 6, Turn 3: Rhana (Water) AUTOMATICALLY hits Strov (Target DEX: 425, Scrub Doriki: 480) in the torso with Bite (Roll 10 (18) vs CON AC 14) for 39 piercing damage. HP: 21 -> -18, OP left: 0, Stamina left: 165"
+        }
+    ]
+}
