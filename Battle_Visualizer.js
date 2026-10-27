@@ -385,6 +385,10 @@ function updateBars() {     // updates player values (hp, op, st) and their resp
     let curr_record = record[curr_record_num];  // look at current record
     let C1_OP_initial;  // initialize C1_OP_initial (we can't assign it a value yet)
     let C2_OP_initial;  // initialize C1_OP_initial (we can't assign it a value yet)
+    let c1HP = Math.max(0, curr_record.C1.HP);  // C1's HP Bar will have a width of 0 if it's negative
+    let c1ST = Math.max(0, curr_record.C1.Stamina);   // C1's ST Bar will have a width of 0 if it's negative
+    let c2HP = Math.max(0, curr_record.C2.HP);  // C2's HP Bar will have a width of 0 if it's negative
+    let c2ST = Math.max(0, curr_record.C2.Stamina);   // C2's ST Bar will have a width of 0 if it's negative
 
     for(let i = curr_record_num; i >= 0; i--) {   // for all records from now to the beginning...
         if(record[i].Action == 0) {   // if the record's action value is 0...
@@ -394,12 +398,12 @@ function updateBars() {     // updates player values (hp, op, st) and their resp
         }
     }
 
-    C1_HP_Bar.style.width = `${curr_record.C1.HP/0.6}%`;                                // set C1's HP bar width using css
+    C1_HP_Bar.style.width = `${c1HP/0.6}%`;                                // set C1's HP bar width using css
     C1_OP_Bar.style.width = `${curr_record.C1.OP*100/C1_OP_initial}%`;                  // set C1's OP bar width using css
-    C1_ST_Bar.style.width = `${curr_record.C1.Stamina*100/C1_data.Initial_Stamina}%`;   // set C1's ST bar width using css
-    C2_HP_Bar.style.width = `${curr_record.C2.HP/0.6}%`;                                // set C2's HP bar width using css
+    C1_ST_Bar.style.width = `${c1ST*100/C1_data.Initial_Stamina}%`;   // set C1's ST bar width using css
+    C2_HP_Bar.style.width = `${c2HP/0.6}%`;                                // set C2's HP bar width using css
     C2_OP_Bar.style.width = `${curr_record.C2.OP*100/C2_OP_initial}%`;                  // set C2's OP bar width using css
-    C2_ST_Bar.style.width = `${curr_record.C2.Stamina*100/C2_data.Initial_Stamina}%`;   // set C2's ST bar width using css
+    C2_ST_Bar.style.width = `${c2ST*100/C2_data.Initial_Stamina}%`;   // set C2's ST bar width using css
 
     C1_HP.textContent = `${C1_data.Name} HP: ${curr_record.C1.HP} / 60`;                                // display the value of C1's HP
     C1_OP.textContent = `${C1_data.Name} OP: ${curr_record.C1.OP} / ${C1_OP_initial}`;                  // display the value of C1's OP
